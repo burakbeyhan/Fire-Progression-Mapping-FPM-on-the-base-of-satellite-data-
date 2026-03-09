@@ -5,3 +5,9 @@ For this purpose, the first model is created for the delimitation of the boundar
 Below there is a sample image from one of the outcomes of third model created for mapping the progression of a wildfire;
 
 ![FPM_sample](https://github.com/user-attachments/assets/bc0f6731-eb69-479d-8198-0e6cfce91f9d)
+
+How to cite this material;
+
+Beyhan, B. (2025). Wildfires as incidences of ecological crime: A comprehensive examination of the wildfires in İzmir city-region between 25 June and 5 July 2025. Geoadria, 30 (2). https://doi.org/10.15291/geoadria.4869
+
+Beyhan, B. (2026, March 9). Fire Progression Mapping (FPM) on the base of satellite data: First release (Version 2.0). Zenodo. http://doi.org/10.5281/zenodo.18924076
