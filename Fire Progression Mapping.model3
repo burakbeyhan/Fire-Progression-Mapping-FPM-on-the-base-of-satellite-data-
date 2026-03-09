@@ -1,0 +1,1119 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option name="children" type="Map">
+    <Option name="native:extractbyexpression_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="native:extractbyexpression" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1558" name="component_pos_x" type="double"/>
+        <Option value="594" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Extract by expression" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="205" name="component_pos_x" type="double"/>
+      <Option value="269" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="native:extractbyexpression_1" name="id" type="QString"/>
+      <Option name="outputs"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="EXPRESSION" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="(@include_afs_with_high_level_of_confidence  = true and &quot;CONFIDENCE&quot; = 'h') or ( @include_afs_with_nominal_level_of_confidence = true and &quot;CONFIDENCE&quot; = 'n') or ( @include_afs_with_low_level_of_confidence = true and &quot;CONFIDENCE&quot; = 'l')  " name="static_value" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option value="native:saveselectedfeatures_1" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:extractbylocation_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="native:extractbylocation" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1286" name="component_pos_x" type="double"/>
+        <Option value="643" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Extract by location" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="141" name="component_pos_x" type="double"/>
+      <Option value="352" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="native:extractbylocation_1" name="id" type="QString"/>
+      <Option name="outputs"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option value="select_the_layer_showing_delimited_fire_zones_doundaries" name="parameter_name" type="QString"/>
+            <Option value="0" name="source" type="int"/>
+          </Option>
+        </Option>
+        <Option name="INTERSECT" type="List">
+          <Option type="Map">
+            <Option value="native:saveselectedfeatures_1" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+        <Option name="PREDICATE" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="List">
+              <Option value="1" type="int"/>
+            </Option>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:fieldcalculator_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="native:fieldcalculator" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="644" name="component_pos_x" type="double"/>
+        <Option value="351" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Field calculator" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="430" name="component_pos_x" type="double"/>
+      <Option value="338" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="native:fieldcalculator_1" name="id" type="QString"/>
+      <Option name="outputs"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="FIELD_LENGTH" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="0" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="FIELD_NAME" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="daily" name="static_value" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="FIELD_PRECISION" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="0" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="FIELD_TYPE" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="0" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="FORMULA" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="epoch(  to_datetime( to_string(&quot;ACQ_DATE&quot;)+' '+ &quot;saat&quot;))/(1000*60*60)" name="static_value" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option value="native:extractbyexpression_1" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:fieldcalculator_2" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="native:fieldcalculator" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1254" name="component_pos_x" type="double"/>
+        <Option value="600" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Field calculator" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="777" name="component_pos_x" type="double"/>
+      <Option value="540" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="native:fieldcalculator_2" name="id" type="QString"/>
+      <Option name="outputs" type="Map">
+        <Option name="FPM - Vector" type="Map">
+          <Option value="native:fieldcalculator_2" name="child_id" type="QString"/>
+          <Option value="" name="color" type="QString"/>
+          <Option name="comment" type="Map">
+            <Option value="" name="color" type="QString"/>
+            <Option value="" name="component_description" type="QString"/>
+            <Option value="60" name="component_height" type="double"/>
+            <Option value="0" name="component_pos_x" type="double"/>
+            <Option value="0" name="component_pos_y" type="double"/>
+            <Option value="100" name="component_width" type="double"/>
+            <Option value="true" name="outputs_collapsed" type="bool"/>
+            <Option value="true" name="parameters_collapsed" type="bool"/>
+          </Option>
+          <Option value="FPM - Vector" name="component_description" type="QString"/>
+          <Option value="30" name="component_height" type="double"/>
+          <Option value="616.7603013733208" name="component_pos_x" type="double"/>
+          <Option value="635.7216073243774" name="component_pos_y" type="double"/>
+          <Option value="200" name="component_width" type="double"/>
+          <Option name="default_value" type="Map">
+            <Option value="QgsProcessingOutputLayerDefinition" name="class" type="QString"/>
+            <Option name="create_options" type="Map">
+              <Option value="UTF-8" name="fileEncoding" type="QString"/>
+            </Option>
+            <Option name="sink" type="Map">
+              <Option value="true" name="active" type="bool"/>
+              <Option value="1" name="type" type="int"/>
+              <Option value="TEMPORARY_OUTPUT" name="val" type="QString"/>
+            </Option>
+          </Option>
+          <Option value="true" name="mandatory" type="bool"/>
+          <Option value="FPM - Vector" name="name" type="QString"/>
+          <Option value="OUTPUT" name="output_name" type="QString"/>
+          <Option value="true" name="outputs_collapsed" type="bool"/>
+          <Option value="true" name="parameters_collapsed" type="bool"/>
+        </Option>
+      </Option>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="FIELD_LENGTH" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="0" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="FIELD_NAME" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="datem" name="static_value" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="FIELD_PRECISION" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="0" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="FIELD_TYPE" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="2" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="FORMULA" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="left(to_string(format_date( datetime_from_epoch( MIN*(1000*60*60)), 'yy/MM/dd hh:mm')),14) + ' - ' + left(to_string(format_date( datetime_from_epoch( MAX*(1000*60*60)), 'yy/MM/dd hh:mm')),14)" name="static_value" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option value="sagang:polygonclipping_1" name="child_id" type="QString"/>
+            <Option value="S_OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:saveselectedfeatures_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="native:saveselectedfeatures" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1203" name="component_pos_x" type="double"/>
+        <Option value="618" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Extract selected features" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="202" name="component_pos_x" type="double"/>
+      <Option value="172" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="native:saveselectedfeatures_1" name="id" type="QString"/>
+      <Option name="outputs"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option value="select_the_layer_covering_selected_active_fires" name="parameter_name" type="QString"/>
+            <Option value="0" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="qgis:basicstatisticsforfields_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="qgis:basicstatisticsforfields" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="687" name="component_pos_x" type="double"/>
+        <Option value="425" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Basic statistics for fields" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="521" name="component_pos_x" type="double"/>
+      <Option value="453" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="qgis:basicstatisticsforfields_1" name="id" type="QString"/>
+      <Option name="outputs"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="FIELD_NAME" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="daily" name="static_value" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_LAYER" type="List">
+          <Option type="Map">
+            <Option value="native:fieldcalculator_1" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="sagang:cliprasterwithpolygon_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="sagang:cliprasterwithpolygon" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1203" name="component_pos_x" type="double"/>
+        <Option value="618" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Clip Raster with Polygon" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="108" name="component_pos_x" type="double"/>
+      <Option value="553" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="sagang:cliprasterwithpolygon_1" name="id" type="QString"/>
+      <Option name="outputs" type="Map">
+        <Option name="FPM - Raster" type="Map">
+          <Option value="sagang:cliprasterwithpolygon_1" name="child_id" type="QString"/>
+          <Option value="" name="color" type="QString"/>
+          <Option name="comment" type="Map">
+            <Option value="" name="color" type="QString"/>
+            <Option value="" name="component_description" type="QString"/>
+            <Option value="60" name="component_height" type="double"/>
+            <Option value="0" name="component_pos_x" type="double"/>
+            <Option value="0" name="component_pos_y" type="double"/>
+            <Option value="100" name="component_width" type="double"/>
+            <Option value="true" name="outputs_collapsed" type="bool"/>
+            <Option value="true" name="parameters_collapsed" type="bool"/>
+          </Option>
+          <Option value="FPM - Raster" name="component_description" type="QString"/>
+          <Option value="30" name="component_height" type="double"/>
+          <Option value="153.00502288867952" name="component_pos_x" type="double"/>
+          <Option value="668.0386940489433" name="component_pos_y" type="double"/>
+          <Option value="200" name="component_width" type="double"/>
+          <Option name="default_value" type="invalid"/>
+          <Option value="false" name="mandatory" type="bool"/>
+          <Option value="FPM - Raster" name="name" type="QString"/>
+          <Option value="OUTPUT" name="output_name" type="QString"/>
+          <Option value="true" name="outputs_collapsed" type="bool"/>
+          <Option value="true" name="parameters_collapsed" type="bool"/>
+        </Option>
+      </Option>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="EXTENT" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="1" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option value="sagang:inversedistanceweighted_1" name="child_id" type="QString"/>
+            <Option value="TARGET_OUT_GRID" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+        <Option name="POLYGONS" type="List">
+          <Option type="Map">
+            <Option value="native:extractbylocation_1" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="sagang:contourlinesfromraster_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="sagang:contourlinesfromraster" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="981" name="component_pos_x" type="double"/>
+        <Option value="425" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Contour lines" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="522" name="component_pos_x" type="double"/>
+      <Option value="553" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="sagang:contourlinesfromraster_1" name="id" type="QString"/>
+      <Option name="outputs"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="GRID" type="List">
+          <Option type="Map">
+            <Option value="sagang:inversedistanceweighted_1" name="child_id" type="QString"/>
+            <Option value="TARGET_OUT_GRID" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+        <Option name="INTERVALS" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="1" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="LINE_PARTS" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="true" name="static_value" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="POLY_PARTS" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="true" name="static_value" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="SCALE" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="1" name="static_value" type="double"/>
+          </Option>
+        </Option>
+        <Option name="VERTEX" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="0" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="ZLIST" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="0, 10, 20, 50, 100, 200, 500, 1000" name="static_value" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="ZMAX" type="List">
+          <Option type="Map">
+            <Option value="qgis:basicstatisticsforfields_1" name="child_id" type="QString"/>
+            <Option value="MAX" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+        <Option name="ZMIN" type="List">
+          <Option type="Map">
+            <Option value=" floor(@Basic_statistics_for_fields_MIN )" name="expression" type="QString"/>
+            <Option value="3" name="source" type="int"/>
+          </Option>
+        </Option>
+        <Option name="ZSTEP" type="List">
+          <Option type="Map">
+            <Option value="if(  @specify_the_length_of_each_interval >0,  @specify_the_length_of_each_interval , (hour(age(datetime_from_epoch(@Basic_statistics_for_fields_MAX*1000*60*60), datetime_from_epoch(@Basic_statistics_for_fields_MIN*1000*60*60))) - (hour(age(datetime_from_epoch(@Basic_statistics_for_fields_MAX*1000*60*60), datetime_from_epoch(@Basic_statistics_for_fields_MIN*1000*60*60))) % ((2.5*@specify_the_number_of_intervals_for_the_fire_progressing_map )/10)))/@specify_the_number_of_intervals_for_the_fire_progressing_map )" name="expression" type="QString"/>
+            <Option value="3" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="sagang:inversedistanceweighted_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="sagang:inversedistanceweighted" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="320" name="component_pos_x" type="double"/>
+        <Option value="115" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Inverse distance weighted interpolation" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="265" name="component_pos_x" type="double"/>
+      <Option value="472" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="sagang:inversedistanceweighted_1" name="id" type="QString"/>
+      <Option name="outputs"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="CV_METHOD" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="0" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="CV_SAMPLES" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="10" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="DW_BANDWIDTH" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="1" name="static_value" type="double"/>
+          </Option>
+        </Option>
+        <Option name="DW_IDW_POWER" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="2" name="static_value" type="double"/>
+          </Option>
+        </Option>
+        <Option name="DW_WEIGHTING" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="1" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="FIELD" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="daily" name="static_value" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="POINTS" type="List">
+          <Option type="Map">
+            <Option value="native:fieldcalculator_1" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+        <Option name="SEARCH_POINTS_ALL" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="1" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="SEARCH_POINTS_MAX" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="20" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="SEARCH_POINTS_MIN" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="1" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="SEARCH_RADIUS" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="1000" name="static_value" type="double"/>
+          </Option>
+        </Option>
+        <Option name="SEARCH_RANGE" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="1" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="TARGET_USER_FITS" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="0" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="TARGET_USER_SIZE" type="List">
+          <Option type="Map">
+            <Option value="specify_the_resolution_for_fpm_in_raster_grid_format" name="parameter_name" type="QString"/>
+            <Option value="0" name="source" type="int"/>
+          </Option>
+        </Option>
+        <Option name="TARGET_USER_XMIN TARGET_USER_XMAX TARGET_USER_YMIN TARGET_USER_YMAX" type="List">
+          <Option type="Map">
+            <Option value="native:extractbylocation_1" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="sagang:polygonclipping_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="sagang:polygonclipping" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1209" name="component_pos_x" type="double"/>
+        <Option value="600" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Polygon clipping" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="783" name="component_pos_x" type="double"/>
+      <Option value="432" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="sagang:polygonclipping_1" name="id" type="QString"/>
+      <Option name="outputs"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="CLIP" type="List">
+          <Option type="Map">
+            <Option value="native:extractbylocation_1" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+        <Option name="DISSOLVE" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="false" name="static_value" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="MULTIPLE" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="false" name="static_value" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="M_INPUT" type="List">
+          <Option type="Map">
+            <Option value="sagang:contourlinesfromraster_1" name="child_id" type="QString"/>
+            <Option value="POLYGONS" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+        <Option name="S_INPUT" type="List">
+          <Option type="Map">
+            <Option value="sagang:contourlinesfromraster_1" name="child_id" type="QString"/>
+            <Option value="POLYGONS" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="script:FPM_Raster_Legend_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="script:FPM_Raster_Legend" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1321" name="component_pos_x" type="double"/>
+        <Option value="684" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="FPM Raster Legend" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="331" name="component_pos_x" type="double"/>
+      <Option value="613" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="script:FPM_Raster_Legend_1" name="id" type="QString"/>
+      <Option name="outputs"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option value="sagang:cliprasterwithpolygon_1" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="script:FPM_Vector_Legend_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="script:FPM_Vector_Legend" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1321" name="component_pos_x" type="double"/>
+        <Option value="684" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="FPM Vector Legend" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="920.4806974908059" name="component_pos_x" type="double"/>
+      <Option value="620.4626859246606" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="script:FPM_Vector_Legend_1" name="id" type="QString"/>
+      <Option name="outputs"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option value="native:fieldcalculator_2" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="designerParameterValues" type="Map">
+    <Option name="fpm__raster" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option value="UTF-8" name="fileEncoding" type="QString"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option value="true" name="active" type="bool"/>
+          <Option value="1" name="type" type="int"/>
+          <Option value="TEMPORARY_OUTPUT" name="val" type="QString"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="fpm__vector" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option value="UTF-8" name="fileEncoding" type="QString"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option value="true" name="active" type="bool"/>
+          <Option value="1" name="type" type="int"/>
+          <Option value="TEMPORARY_OUTPUT" name="val" type="QString"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option value="model_sonucu_AFs_835321c5_ef76_4fa4_9d4c_21644a4a42f4" name="select_the_layer_covering_selected_active_fires" type="QString"/>
+    <Option value="yangin_bolgeleri___smoothed_aydin__Grid_Statistics__492a7de7_68cf_4a46_aa84_722ccbdb8f66" name="select_the_layer_showing_delimited_fire_zones_doundaries" type="QString"/>
+    <Option value="10" name="specify_the_number_of_intervals_for_the_fire_progressing_map" type="int"/>
+    <Option value="50" name="specify_the_resolution_for_fpm_in_raster_grid_format" type="int"/>
+  </Option>
+  <Option name="groupBoxes"/>
+  <Option name="help" type="Map">
+    <Option value="Burak Beyhan" name="ALG_CREATOR" type="QString"/>
+    <Option value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'Ubuntu Sans'; font-size:11pt;&quot;>This model helps you to produce Fire Progression Maps (FPM) provided that you have the layer covering the Active Fires (AF) data compiled for a region and the layer showing the wildfire zones delimited properly. Once you select the AFs, you should specify the layer covering these AFS together with the layer showing the wildfire zones and the number of intervals that will be used for the depiction of FPM. On the base of these inputs, the model will produce sub-daily FPM in both raster grid and vector format showing the progression of the fire according the speficied number of intervals.&lt;/span>&lt;/p>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu Sans'; font-size:11pt;&quot;>&lt;br />&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'Ubuntu Sans'; font-size:11pt;&quot;>The model also requires two python scripts produced for the creation thematic maps according to the spectral color ramp. These script files (FPM Vector Legend.py and FPM Raster Legend.py) are included in FPM bundle created for the creation fire progression maps. In the bundle there are three models; (1) Delimitation of Burned Areas, (2) Pooling MODIS and VIRRS and (3) Production of Fire Progression Maps.&lt;/span>&lt;/p>&lt;/body>&lt;/html>" name="ALG_DESC" type="QString"/>
+    <Option value="Burak Beyhan" name="ALG_HELP_CREATOR" type="QString"/>
+    <Option value="Version 2.0" name="ALG_VERSION" type="QString"/>
+    <Option value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;img src=&quot;data:image/12991.jpg;base64,/&#xa;9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJ&#xa;C4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyM&#xa;jIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAD4AV8DASIAAhEBAxEB/8QAH&#xa;wAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhM&#xa;UEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV&#xa;1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx&#xa;8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFB&#xa;gcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVY&#xa;nLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEh&#xa;YaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8&#xa;vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAae3FHvQSAMnoK8a8cfEHUJNVm0/Rb1YbKLCme3&#xa;YFpSQM4bsAeBt9Dz6RUqKCuzpwmDqYqp7Onv+B7KelHevKvh94+DeXo2rzTyXEsu2G5kYvuLYwrEnOc9&#xa;D05r1XFEJqauhYrC1MNUdOotfzHUUUVZzhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF&#xa;ABRRRQAUUUUAFFFFABRRRQA3IP40cVzXjTxRF4U8Py3geBrxhi2hlb/AFjZAJwOSADk4/MZrxCx+I/iG&#xa;HxBb6je6hcTwo4MlurbI2XuNowOh4+gppXO3DZfVrwc47L8T6VorF8OeIrHxPpKahYOxQkqyOMMjDGQf&#xa;fkdOK2u9Bxyi4ycZKzQtFFFIQUUUUAFFFFABRRRQB5r8V/EVxp1nbaVaSGNrsM0rKxDbAQAAR2JJz7DH&#xa;evHK734r6lBdeJkskiYS2iAPKZGIO4AhQp4GAQcjrn2rgq8zEyvUavsfeZHRUMIpWs3dvz7Cf8A66+kv&#xa;CN5LfeE9LuLht8z2672ySWIGMknucZPvmvm6vVvhFrQZbzR555DIMTQIzEqF/iCjtyQcZ5z04JNYSVpN&#xa;Pqc3EOHc6CqpbP8D1eiiivRPjAooooAKrXt3DYWVxeXDlYbeNpZGAJ2qoJJwOTwDVmqGsWQ1LRr6waUQ&#xa;i5t5ITIRnZuUrnGRnGfWgCifFOnRzxxSi7hZ9p/e2kihQzBQWJX5QSQMnAp1h4n0nVZLFLK7MjXsTzQj&#xa;YwyqttJOR8vPABwTg46GqqeG9EXVIbqGO1jijjVVtYgEj3h9wYqpAY5AxkHBAIqnpmkaFoV5bsmqWiXW&#xa;nWypd7pVUsojRAzAt8g+XOOmWJ6nJBtNbnT3t7DYWrXFwxSJSoZsHjcwUE47ZPJ7DmoRq9h9pe3a7iSV&#xa;ZvICuwUs+FbC5+8cMvTPJx1BqnL/Yc2kXSPfQPYX8crSSNd7lZD8rkMWICjIHHAJHSsKLwzaPJpqNrsN&#xa;xcyxF5N7EG7zJ5pkRUkX+IkgncAAvHy8gjov+Ej0b7aLMarZ+cVdtgmU8Jjfk5wCMgkHnGT2OLkOo2Vy&#xa;YxBeW0plXdGElU7155GDyODyPQ+lcd/ZFtLBbWX/CSaYWsbFogqQgN5IMTBnHmdA0S7jgKQxGFzmtbQt&#xa;KtrGe91v+0ba6F0nzzxIFiXbJKzFTubA+fBGeqkk88AHTUVW+3Wn2sWf2mH7UU3iHzBvK/3tuc496il1&#xa;XT4JZ45r+1jkgQPMryqpjU4wzAngcjk+ooAvUVBbXVveW6T208c8LjKyROGVvoRwajk1Gygu1tJbu3ju&#xa;WQusLygOyjOWCk5I4PPsaALdFULfVtOurcTW2oWs0JcxiSOZWXcBnbkHGcc49KE1fTZIoJU1C1aK4fy4&#xa;HE6kStnG1Tn5jnjAoAv0VSbVNPW7S0a+thcuxVYTModiOSAM5JFPtr60vUZ7S6huEVtpaGQMA3oSD156&#xa;UAWqKqNqVijwI17bq1x/qFMqgy/7oz83UdKV760iu0tJLqFLmQFkhaQB2A6kLnJAwefagC1RVe0vLa+g&#xa;E9pcRXEJJAkhcOpI68jirFABRRRQAlRTzJb28k8rbY41Ls3oAMk1LWH4t1SHR/CuoX08bSxxx4KLIYy2&#xa;SFA3DkZJ6imOC5pJdz5u8ReIL3xLrE2oXjk7mPlxbiViXso9B/M81j0rEMxIUKCchQc49qSrPvKcIwgo&#xa;pWSPSPgxezw+L5rRG/cT2zF0LHGVIKkDpnkj6E177xXyRo+ozaVq1rfQyyxPDIrFonKsVz8wzg9RkdD1&#xa;6Gvq2wvYNSsLe9tX3wTxiSNumVIyKlo+azmi41lUWzX4luiiipPHCiiigAooooAaT0rnPFfiq38K6fHP&#xa;NBNNJKxWNUXjIH8TdAOnuew4OOk7Vy/j+WCHwTqP2iOV1aPavl54fqpJHQZAz27d6UrqLsaUFF1IqSum&#xa;1oeFazrN5r2pSX99IGlbgBc7UHYAEnA5PGe5qhSuUaTMY2qBgAnJPuT/gBSV4023K7dz9Lw8YxppRVku&#xa;gmecY/GtDQtTk0TXrXUkkZRFIrOFPVM/MPxBIqhSEnIwPxpwk07oWIpxqU3GSumfVMciTRrIjBlYAgg5&#xa;BB9KkrG8KQ+R4T0mPDAi0iyGGCCVBPHb6Vs17Cd0fmcklJpC0UUUyRKx/E2mS6x4dvdPgZFlnj2q0hIU&#xa;HIPOAT2rYrL8QQXdzod1DZbvtLKAm19p6jODkY4z3pPZlU21NNO2p5jpXwr1iy1mxu5LuwZLe4jlYKz5&#xa;IVgxA+XrxXb6npV7qWq3Ml1YLLbRwmK0EVz5bEFkZiTjIYsi47AL1+Y45ux0DxXFqVpJKt0IknjdybsE&#xa;bQwLZG7njPFbGr6WNQ1rUWfTLmCL7P5LTW8Ks10WMbFmycMFChVByeW46ZxoWs7Jr1O3MKk6k05TUtOg&#xa;5dH1m7iMt6POurOSDyFkYfOFnEzLuwAx2LEu7ABaMn3qnb+H/EOjyTXVowM0xaQqkxKqCrhYdpHIV2Vg&#xa;3GBu6dGVdPvb2xCy6aiJYmKI2kEKoHja4WSQFAduTEsTMoJBLMvOcVVtLXXdGuRfvYNMY1YW0cqKywwl&#xa;H2Rhs7lfeUUheCG7gZXc4DW1bw7f3anT4LWL7Da2n2eyYzYYkoFZm4yDgbVxwOWOeAtg6Det4I1PS5YU&#xa;nubsXBRZnDHMjMVLtjBYE5JA7ADOM1lanoU4aSzstNuFe20824vI0UNdsyAEs2eVUAna33mPYDLX0029&#xa;X4eapYm3m8+VboQRwgxMwdmKYVT8g5Hy54HXqRQA6XQ9Rm1J52t4zE9wbwgXBVs/ZDb+TuAyvzHduHTJ&#xa;71FceG72a9mMlqsluskkylLorJIX8rC7sZBUoTknnavqdsMthqUniptRW2u0jIJDIieYqfZiMq7Hg+Yc&#xa;eUwI3Yb1qtqOjalLqc8i2E8hNwJLqU7f9Jtt8B8rr8x2q67enDD+IbgDrbCz1E6PbQ3l/LHdK5Z3i2Mx&#xa;XcSqMWUg4UqCwAJIyMZqrrFjfahq9uhs45dPhUyZEwRmlIZQDwSFAY4x1LZ424aTRrTULfQoYY/LtXFx&#xa;K6xzxF9kBldkQBWXaQhUdSBjGDVLXLI3niG0I02bEMbO1/BGu9sq6iIHIIHzFjnj7o5ySADObw/q19p9&#xa;zpU2Y7dba4FmJpfM8kvEIUUuB82MzMepAZRmkfQNbGtzazEBbyTyBhFHPn7Mo8oNkBcPuWJsgdyv+8tW&#xa;DSb+TSLnR7Sz+zeRDcTWrrEtvJI5gEURkCnAYs0vzcH92p96T+y9Sg1YXltprRaak4ksbWSFClvzEHLK&#xa;T8mdsjKy8jn+9tYA1/7K1Wa30y3e0iMJb7ZdlpAG+0M5fBGOUVmJwDk4UcAHdN4U0O70fTrqG8RZN6RI&#xa;sbyiQnbGEK7sAbSRwCM4Jz1wM86dLeNpLNps8c87m9mv44wZYC7FhEGzkY3BWPTauMHPymm6Jqlv4X1y&#xa;3jjKNNB5drGkXkNIwi2s+0s21mPGSQcjPfJAI4PC2q7dHXyo4RaR28bqkw2ARTiQ7ht+YYA24wVYHPBp&#xa;+r+FNS1NJ7eFI7dLqGNTM1w0jQFBKMAkZYHzF5z/E3oMtg0yQ6haIuiS29sL83EMywqGtolZSIlAOUDM&#xa;GZu21iMZb5Ytb0jWb2eR7KG8+3SW6LaXk5QNBgShwzKcKSWXoOdy/3TgA6nQrO6tzqNxdwJA93cLKIUf&#xa;cECxRx4zgDkxk/Qitquf8L2jWsN/tsnsrWW5D21s6hSieVGp+UEgZdXPvknvXQUAFFFFADWPBrw34g/E&#xa;uXUkn0XS4pre3y0dxLKpSSQZxgDOVBGchhk56CvcscV88/FW5sn8a3IS2l89YURzKWA3DPIHpjbjBx1O&#xa;DmqR6OVwhOvaSvbU4GgUUVR9gFe6fBjXGvNAudKnlLSWUgMYY8iNhwB3wCG/MCvC69L+C0Ik8X3UwD7Y&#xa;7IgnHGS69T+BwP8KT2PNzWnGeGbfTU97oooqD5AKKKKACiiigBB1rkPiLqsGneFLqGRHkku0aFFU4xkc&#xa;sT6DI+pIHQ119eD/FLV7i98XPp7s/2a0VfLTK43EDccjOfoeeO1Z1ZcsWzty6h7fERj21OJCYdmz1AGK&#xa;dQAB0oryG7n6NFJKyCgjcMHP4UVreH9It9b1D7Jcanb2AO0iWbPzHIG0cgZIJPPUhQMZNVCLlKy3McTW&#xa;jRpOctlufQ2iXX23QtPuimwzW0cm30yoOP1rRqGGFLeCOGMAJGoVQOwAwKmr2Ufmcmm9AooooEFZ2sNc&#xa;JpMzWvmeeMbfLXLdRnA57ZrRqlqk722nyTRlVZSvLDIALAE/kTUy+Fjjujk7e61w3UAP9obTMgbdCQNu&#xa;4ZzlemM0urzNPrWoxWuoXlkI7fZMztMUZy0ZBRQcKFUEFlxkueflJF9NbuDLEovIX3SKpUKuSCQD0PvV&#xa;bVNVvf7XvrbTdYjBigxKkzRKsEpaPaqkrkkqXJ3bgCy8DOK58M007Nv1N8Q22rpL0KP228u9PjZPtltb&#xa;2nlR3G2eZmZZLkBn3Md4/dJuBPzKs3UYqrZa3q9hd/ab5LueCNGFvExlVmgCSMsrdmYlVUhgWyy4wThr&#xa;w165ksopLO7lijDRpd3MyxFi0lysIfKqFO1Y5MHGCGQkEVWsfGE7XYbVJC9nCGRRGIybgKkkgnKlclSs&#xa;eQVIAYdCPu9Rzk94L2O6+w2+p3cd9bWP+lzzTS+VM+wHCjBVeAxLqMqSAMnIFmGbUD4RjluWuoom1ABm&#xa;WWQyrbGbAO8gPjGPm4O05z3qO51PWYZxa2+ppNqMdlvvbdvJVInKqcISAS/3mAZioUDdjKk2o9bvz4C1&#xa;TU1nCT2y3Jt7i4VDvCMwVmCEKScYyDgnnHagDP06/uWurTfd30FxDZu873Cyusg2ExgRdGYAB2Iw2Rty&#xa;SzBYtQu9VGpz7Li/wCZwLsJ5gRLXfB8yAcKdhkOV+b73OV40ZvEV0mvMqXsHkicwrBKyrGYvshm84sAW&#xa;A3jaW5UAHjNUtQ8TalDqUscd8ih7kW7xKqEWsW+BfOBIz92Vmy2V+ZeMA5AOh0aXUW0KBkj89zcSqhup&#xa;WRjbiVxGxJVizbAh5wTnJOap65PnxFaW8F1d206xM8simUxFCrqqhB8rOWIOcZAXqMqDe0jVLm40SK4e&#xa;GW9k+0SwB4dgLosrospyVXBCgnb/e4GKq61qk0Gu2trZ6osUzRs81tKYxGse18OSRu3FgoABxhScYBNA&#xa;GBFdao2i3FnYS3b3dtFczpcCWWT7UVgVVKiQlgDJJwOV3RNjqaauoalDrC+S15PpEdyDZLJJPuuATEGB&#xa;fOSFJkIDkqVDZGBlZl1/UYtGunhuGuNTtI7iW4lkETq4it1cKjRqoK75Y+2774zxR/wk97HrJsZLxrrT&#xa;4Jwv2lfKD3isYl2gbdrBWkZWChSeMEEYYAsPdzXMmlNHeXkN7eyG6WVnkMUcLMSiFB8rMVKrgj5cM2Qc&#xa;brvhJ9QNlfm9mlMCbVScyvNuYRjzGVpFBK7uQMFQcgegrtrV3JJpv2TUkW5u5Wkgs3EYiNtuIVmO3cMr&#xa;t2gHJZuhAOLnhbVNRv7e/F7IS9uUXzphEQshjDOv7ptpVSQRznBwT3oAxLe/wBTmh0d2uL95jFbCI4ce&#xa;bJ5+2fzAAAcR4PzDABYjGMhdbvdbM8kmnz3ct99nQ2SxwyRxS/LLvLIcjIIX72SCFxjdyJ4q1KT+w3W7&#xa;jkE8du1yY1QKzSTiNvlOWIxuACHKnBbINSa14q1OzkmmtZ7eSSKCN4bOFhKlyWEpLBsBiF8sfdwPlbOc&#xa;8AG/wCGJHkgv9kt1LZrcgWklyWZmTyoy3zN8xHmGQc9CCOgAroKwfDl9Nepfo96L6O3uViiucKPMUxRu&#xa;T8oCnDOw4HQAHkE1vUAFFFFACHpXzX8TNXh1jxpNNbxMiRRrCGc/wCswSdwHYEEY9ue9e4eOdWudF8H6&#xa;he2jFbhUAjYbcqSQM4PXAye/wBK+YpZPNcuSzO3LszZ3H1qoo9zJaF5uq+mhHRRRVH0oV6n8D7rZr2p2&#xa;ezIltll3em1gMfjv/SvLRjcM8jPPOK97+FPh6y023vNTt9Rtrt7sRgpbjiAY3FDkk9Wxz2APfhPY8vNa&#xa;sY4dxe72PSqKKKg+SCiiigAooooAaTgZr5k127F94h1G6DBlluZGVlBAZSxwcHpkYr6Yl2mFw+NpU5z0&#xa;xjvXysn3F+grixj0SPpuGoJ1Jy6pJfeKAFAA6CnFHRVcoyq2drEEBsdcHvTa2LvXVvfDNnpc9sglsZCY&#xa;Jk4zG2SwIxyc7cH65568cUne7Ppq9ScHHkV03Z+S7mdFbTSQ+aIT5J3YkY7Fyqk4DHgn26n2pEtXktXm&#xa;VoiFBypYg59OnPUdPWtu3tvD+oeGh5t9HZ6rArr+8QkSAtuDDaDkhQy4x/EvoAWeC7CPUvF9jaGZ0glk&#xa;LsC3LKoLY6Y5xW6gtF3PKni6rjVa05b9NLHuXhK3ubXwvp8F1GEljiCkCQPkdiSABkjnv16nrW53oor0&#xa;UraHxMnzNvuLRRRTEHeq15M1vbGRApbcqjPTlgP61Z71VvWRLVjJEJVJVdjYwSSAM59yKT2YIqPeXce1&#xa;m8ggsqkBWBwSB1z71katd6imq3kFjZ2V6/2YyFBbktExZFUOxcB9wMjBfl4Xr3rSIgjZGOmWqgMo3LtJ&#xa;UkgAj5exrF1l7Ww1S+DaDBcSzwG43wysXk2mNf3gCZXlhgjcSEPHFZUb2d3cbaeyGnWn+zolnHaSyXBS&#xa;O6d7ZkVZGnW3UGMsThQkoK7uSgwRnNQWnieK/uDHqdrBDZ25a2mm8klXlQM5AO7KLtTcAQwPQkcZlF3p&#xa;0FikMGmWdyL5Y90UU5aGNvNWKJdxQEDcXYnbuVkbgmq9pe6Bq97HZNpdraCKI280hYrsZVbdEhC7Wwob&#xa;JJU7WbA+9jYRcu9T1WIxt9gsrq5lsfOntktWaS3yoGWYMd4yWAQKGYBsHg1aXXJ5fBWpagttBLNZrOoS&#xa;SJ4YpPKJwdrAsowvQ9wRnvWdearaW9zHf3OhQLNqFmZQVnIlYlAoVxsAHDBchiR6YGRoNd2reGWs/7Jt&#xa;/mujYGyEmIi5k2nLbc7T94nbk5PGaAI5NdnTxObCPT4ZIR/o6bYsMx+zmXYJCQoboNhA+U7t3BAq33iS&#xa;7g1CRFs7PZdXIsIxJES6NviTMhDYZcysdox0HPzcSW9xp081nLJoMBju7aQfu2Msq+XGVcGMLyAMxhgS&#xa;x3BcYaoL7U9Mi1C43aBbyfaZBZRSu20yy7ok2su35Bll+YZP7vpwtAHQ6Zqwk0iKe5iYOtxLaEWsDsN0&#xa;cjR7gqhiqnZnngZAJqHWLm6g1mzjtYrS5aVXzC8JMqqqsS+/dhVDbFwV5Ldeal0rUrCLRIHcW2nRLM9q&#xa;ImkCqJUkZGVScbssrYOAT1xVTXBa22t2s8uj2901yphEwlPmkqsjY2bcFQAed3G7p6gGUuvz2GlTXTWl&#xa;sdTtY5jdQLbNCII4ofNK43sDlnj+YHBDjjIpT4hmh1Z9Iura2CWMwW5uYrU7AriPbtXflCfNKkgtgjOC&#xa;CcMttU0yy0Z9SbSbcExzJPawzGQpGsXmybwyKdxCopDDoU5xSLf6QmpQaTPo9nb3drOVmcSMyQFjGysr&#xa;7PmZiyEbgo3KOQQuQC7c6rcWlnY38drafYPtP2eNfszErEJNiMJN2F3AKV+U5LKOOtLZ+ILmLw5qVxNa&#xa;2Ze1s0uY0gQpGRJHuCkEnocgkdRg4HSo5ryws/7MnbR7drSCf7FbyvMTIojYorKu3aQMMwywOOVyTirn&#xa;hySyutMvLVNFhtVeNJHtYyrrLHJGNoOQBnAKkHgbcA4xQBBHqd4t1bW4j06SeG/NqYo7YqZB8peRDuPl&#xa;hUfJzuyRtyCwqHWvFFzpEk92dNhWGxhQvC6gzEuJDhWViFA2DPBzk9MVDBe6RnTLmHQIkxHBLIxkw8Am&#xa;m2rjAO878s2SOmeTxTtS1bRdLn+1SaFGbaygXzJnTZJGGWUqojZeejDkjHmHGctQB0OgXU8q31rcLbCS&#xa;yuBCWtoyiNuijlyFJOP9Zjqc4zxnA2awvDbxJb3drHp0VjJa3AjmihfepZo0cEMQpPyuo5HGMdADW7QA&#xa;UUUUAeXfG29WLw1Y2e4bp7rdtIOSqqckH6lfzrwqvX/AI6hfP0IjG7bOD64zHj+teQVa2PrsoilhU+7Z&#xa;LBBJcSrHDGzuf4UUsfyHNJBby3MywwxtJIxwqKMsx9hWn4a16bw1rcOpwQxTGNWUxyDggggjPUdeo/kT&#xa;VjTrrR08YNc3UDro7Sy7oyNzLGwZV/Ebh+IpnXOpOLlpoldeb7FCawKzwRMEt5JVJZWcsFO5hggAleg4&#xa;OTzmvQvhRo9/aeLZJ1RJIVgxKwlChA2cHbglm4xjjGTk9jxniOw0rTLpE0vUlvU2qEeLI2leGLE9SzAs&#xa;ADwD1Ixn2n4T2It/BcN4ZjLLeO0jnOQuCVC/ht59yal3+R5mPrtYS/fTVHfUUUVJ8yFFFFABRRRQBWu5&#xa;IYrWV7hlSAITIzHACgcknsMZr568TaXpVnOt1oV4bnTZXZBuUgxOuCV5AJGCCD355OM16j8Tdel07w/L&#xa;YR2twzXihDchAYkUnlSf7xGQBjvnPFeXeHbTSNSgurPVNTksJQBJbyMQYi2QuCuMk8nkEcZJHy5rkrtS&#xa;fJ1PocohOhTeKu7Xs0tbrv8hmieHNW8USpHYWsawRfI87LsQHlskgEsTyM8noOBiqcVzG2mnTGdg8k3m&#xa;BfLXmQDanzEghcFgc9CVOPT2HRriHwj4BvWOoJeSWBcblYtGJDgqitgZGWGRzgkjtXjFxeTahhJEeWTd&#xa;wFGFVfRVUAKMnk/y5zlKMaaV92jtw+Iq4uUrK0E1byfdledV88ndG5JySigAMeuAABjtwAOuOME+ufC/&#xa;wAJ/Zbca9eROtzICtuki42oQPnHfJHAPHGfWuI8EWFsPFlpJrXlw20AaZWlZQrMASM5PQZB+oAr3954Y&#xa;fLV5ETe2xASBuOCcD1OATgelaYemm+dnLnOOcYrDU9ur7k9FV4Lu3uS4gnjlKHDbGB2n0OPoasV2HzYU&#xa;UUUAFVL8wraM1wGMQK5CEg5yMYII74q3VPUVhaxkFxI0cXykuvUEEEdj3x2pPYDMWbTy8YaK8GXUAtKx&#xa;AO4YyNx74rM1S407SdU1Ce4TVoJriLzTLHOoWUIY1+T5/l2l1HzBRy3XJzdjGlvLEv9pzsfMUqrBQCcj&#xa;A+6O+KqXz2lprOozT6vcxzyQjCy2JcKgKjEZK4cbmGQuTluegxFNNLVL5Ci29yuY9KsbLZLa3xe+8uWK&#xa;NZEaVSsy7PnDlSzTSlwd2DubOADUFtZ+G9XmXTrNLpJGhJmBmXEbYZGLqWy0m1nUsobG4En7pqVLDTNP&#xa;sGE17cRGZkmtWa1ZZFMc4f/AFRUEEzTYCgDKsoHrUMXh7Srxlg07VLh5rhTcMwgJxIyPG0jMF/dsVZ8K&#xa;SvzKBjhgdBk+pX2i3siXOo2uptBcWrT24aUbMGMDKIr7lYqwAJAAJPIJ5vltJTwhdTzRX8cFpLJPOMlr&#xa;hJUcsxypOW3DPBK4/2ao6qND1OdJbnU54bZbYyWu20KKq+WDlZCmHwPmCZPPODgAXnj00+CdSMmqNHaX&#xa;AnN3eSx7GUsxEmVIG0jlQCMjA6nqAVUTQdM1d4Ue/t1EX2SS488iJSsBl2E7twYRlpM4xkk53GoL6Tw7&#xa;/aNyZLe/d2cLDIknyPPuhH7rLcSbvK+YgDIJz97Nw2dgNeCHV5lu/M83AhG0XP2Yx7txUru8r5thPQbs&#xa;Yqnf2eiNqd0J9XuFkgkFyiCAlUn3QtlSFw7bhH8gJOZCMcjAB02gm0bSIhZJKkQkkDrMcuJBIwk3HJyd&#xa;4bJBIJzg4rN1n7Faa9BeXUWpI8sJgS4hlAiHDuU27twJCkkhccLk8DFvStP0y40SBMJfQ+c84eeIZMrS&#xa;MzNtIG1gzNxgEdO1VNXFtH4jtp7jUriBhCywxm2LRKSGLMHKlQ5VSME5wuAMMcgGVBJoa6VJq93Bem0v&#xa;opo5BcSJI0iGINI7Mjtx5cKrjII24xk0iDQZr+G0MF+mqSTss8c06+YSDGwM3z7XUfuyFUsSBgDG4UQ2&#xa;OjtZXd3d38wstQjmid5LVrcs0kS7mVWUBVEUIIOCPvEntUU1lo0khv5dQvnuLqdRcyNYOod1aPYr/u/3&#xa;RBWMDOCQc9wQAXnbSYYtNtriLUJLK3lW0VzIoheSJ8Asm/cxDqSSFP3cngZq74ZOmHTrn7DFewfJGWFw&#xa;S8vlmMeWVwWONvAHXIORnOaDwaXKum6Tc6o7i3kRZEW3JDzK+Cxk2nZukyp5AY5Uc5FaOiQ6fpuj3l9D&#xa;qxuYUQxvdvtwiwgpjgAHbtYk9yT2wAAY8UnhyMaIiRagySpC0IaTHyGZfKEgLBmCyEHADFc/NgHl+pze&#xa;GFuRJd/abm1W3X7RcGYvCQRLs8zLZZseYAQDjK5/hxHBp2jEaV5mpXbiGSKBGks2XDJLlFJK/uWLHac7&#xa;SwIHoasaxp2jXV6bXVdYmIuIF+0oUASQKJdrM6rtQ4L8ZG7YMdDkA2fDX2T7NdLbw3cUy3AFyt44eXf5&#xa;aFdxDMD8hjxg9MZ5zW7WF4bFs1vdTQXk13LNOGuJJojEwcRooBQqpX5FQ9Oc56EVu0AFFFRTSGGCSUI8&#xa;hRSdiDJbHOAPU0AeffEvTvD2s/ZLK+1FbXWSCLFck7yxwFYdApYAZOMEdeorwq1+0Q3jQx24luGBhCGP&#xa;eQx4O0f3uuD2PI5xW/4z8QNrfjaW/nt7q2jiZI0gcCOaNVxkHg7WzuPOcZ74rtfDegaFF4pstf0rxFmD&#xa;ennW7MDP5kgGE+UYYEnBAAx83Py8X0PpaMng8Oue7urpdEzh73wxf8AhKTSb7Wk8pZpmYRRgNIvlkckH&#xa;5TnIIGeR6VR1Jlu2uL1p0C3D+ZL+6AZp8ZZUxkhctnOQMEcEgCvQfiz4pYeIbfSrdysdrETO8WFk3PyV&#xa;VsEr8oGcf3ueleX/ZLi7dpYbYqjMSFycAexY5NK9ldnVhXVrQVWpo2vwvoaXhXw7P4n16DTohKImYGeV&#xa;Fz5Sdye3t9TX03penW2kadb6fZoEggQIgA9O59ycknuSa5j4ZW2nWfg+0is5InuGQTXO1gW3MT1wTgcY&#xa;HstdW19aqoLXUIBcoDvHLA4I+oPBFJyPBzHFTr1XG1ktEv1LdFFFI84KKKKACiiigDzD4nTtdzQaWxdY&#xa;FjE5I7sSyj64APt83sK8jeN41iZmiYSpvUxurYGSMHBODx0PNen+N7k3HiqdckrAixAY46bj+rGucmht&#xa;p7MwzW8DbMmJlUq+4uCxJX73APBOAOnNeVVnGVWSk/T5H12XznhsNCSV09169TEjm1VtGXTI1cWUk3n7&#xa;QBhmIABJ7AAdOOvOeMTxwpbJHbFmJMytKUyrMpPQsOhx6Zx6HvpMxRAMHJwPlGcH8fx/KktrchkAQec7&#xa;BflJO4kgAZP4dax520m1fsddR8zcY6dW13fchiska3hnMQVoDjbuwyls5YAHJAxy3OM568jo5/Fkmr6F&#xa;aaa6W8iwMhcyS5eYgnAAwMAcZzk+uec4E6SRszlwFUbWidQBnPOSeh7c8CtnREgvLGdiAwdwQGUEFQBg&#xa;4PUHnr16U/bOEb9Hozz8RhlLdptarudh4TaW01iS3NmyieFGLom1Y8Bjg4JyeFGG2nngda7qvOtKnW01&#xa;DTo0FxCqyiMJDO3lENxjaxx1OcYOBnBr0XNejhZxlTXL0PnsVCUaj592LRRRXSc4lU9TtxdWEsLSrEDg&#xa;725AwQeeR6etXKztZspNR0ie1iKiSQAKXJA4IPOM+lFr7iezMeLRYvOhI1a3fbIrBAgy2CDgfN3xUGoQ&#xa;xT6tqb3mpaNMsMAQW9y3/HtESrNvG7jcwUkn0X05o2vgrUoby2mea0KxTJI21mJwpBOPl68VqanpV9qW&#xa;q3Ul1YLLbRwmK0EV15ZIZkZiTjIYsi47AL1+Y4fKo7GdK9ndWM+206Maa08us2LeWY5bSdpg0RSKbzWw&#xa;SSQgLLFnJICKTzgVRj0OK2vNun6/px1K63XC7JQJXaSNgdo3cxfMHAwfud8gjTXR9Zu4vMvf3t1ZyQmB&#xa;ZHHzhbgTMu7ADHYsS7sAFoyfepo9I1W10+NysbSWkM0lrDG24C6lZsE8D5UVtoPcMxwMCkakeoaPb6xf&#xa;Q2tpqmnQi3tSLaKJt8pTAChhuwUDAHIAJwBkc5uT6ft8HanHLqNmh1BZpHu2bEKCXIBBJ5ABABzyeeM4&#xa;qrF4auLXUVjht4ZdPin+0LvcEuosxbCEgjuRuJPGPerMGkX8Xg7RbEwR/a9O+zboRL8j+UVBAbHcDcMj&#xa;qBnHWgCgNHgvfEZuhqemTXckPmmDO/ehg8oKU3YaIlt+7GeSucGmX2iQtfzq2s6dD9ilF+IiQGibdE/7&#xa;wbuI8xnnjhh/d5ns9E1VDbQXdnDJb2ttIIRFdFMyurA5YLuAAOxSOgJbk4CwXvhnVJr7fHFBshuxeKxl&#xa;Jab95A/lHI4/wBUwyeOF98AHQaXpkJ0WCM3bTh55LzzrWdo1ZpJGkOCrZK5cgAkggDNVNXiNz4jtYpdS&#xa;04JHC0kVjO2HLEMDLgMCwC5A7D5j1wVt6Xpd3b6QkEl1JazNczXLiDa2BJK8nl5ZSCAGC5AB44IqDWLC&#xa;+1DV7dDZxS6fCpkyJtjNKQyjPBIUAnGOpbPG3DAGDaaPbX+n3cA1awbTp454YfssweKCWSJU2oCx+6qu&#xa;2OP9a3HerkLaeLiG8vNc0yX7VdteiCGdQs8qokUYUs3zBdmf97aeMVA3h7Vb7T7nSp8x24t7gWYml8zy&#xa;S8QhRWcDLYzMx6kB1GeK0YdKv5ZZJLyJIbSe9N9Pbo+9hsjjWOMYAzlk3nHcAc5NAFJdHiS5soZNVsUu&#xa;Z/s/wBqiLgvJPBMbhvLGRyXdtwxwCDWnBo01z4c1TTZbu3LXctyRLCpYRl2YkEE8lWJBGR07VmR+HtSa&#xa;S2lMce65+yT3RaTBgkjuWuZABjkMXKjB4wM8Vs6Dp89jpN1bT2UMYa5uJEhRgVZHdmA6YHXBFAGUNPmX&#xa;UrJ7jVtNZLq7a7+zZKiaUbQpT5svtVVIHTd8x6DEOq+Gob2dtKn1HT7Rb2BfMt4UCP8gkwY1LdPmBPXG&#xa;0/3uG2vhnVI7bToGt7dAsVrFJiXiEQXHm5UAc7l4GMYKrnjomr+FNS1NJ7eFI7dLqGNTM1w0jQFBKMAk&#xa;ZYHzF5z/E3oMgHQeHIwYLy9+3Wt417cCV5LQ5iBWNI8KcnPEYJ9yR2rcrF0Kzurc6jcXUKQPd3CyiGN9&#xa;wQLFHHjOAOTGT9CK2qAEqpqd2bHS7q7CFzDC8gUAnJAJxx9Kt1z/jS8Nl4S1CQHDPH5QOM/eOD+hNJuy&#xa;uXSjzzUe7R88araT3+oTXZmUzSh55TNIq7iOTgkjk84A+grO0qW6ttSgu7NN01s6yrnplSCM8iuntZza&#xa;3Uc6xxSNGSVWZA65wRkg8HrS3VvYwXL/YY440YDcsZJXIVckFufvbvb0rNVrR13PtrWl7Nr3baf5GTHF&#xa;c39/PqOqM0lzK+8lgPmY9SQPwwAP5VoQwIcDzP3jyMSzMQqrhdo9Bzu59+cYyZHXygUYDzCcMCPu47Z9&#xa;fUf/XFBt5Rai42EQljGHHTIAOPrgg1nKbb1CysrOy6G74d1aXwdqjKkQlhdSgSKXEUhPRgcHIzzkY/pX&#xa;R2em3GuXd3fOiqZGZ2aJeC2egyevAH4VwVqMXVuXcbd4x8wyMEdu3Wu4sNSa0XYQdmchkOGHrg1xYqq9&#xa;Ivbc462GaTqU7c+zZ6bYytNZxyPG0ZI+6xORg4B55568+tWqx/Dt6L3TDIrO2HZcuST69/rWxXpU5KUE&#xa;0fK1IuEnF7oWiiitCApkkixxs7HCqCSfQCn0x2VELMwCgZJJwBQB4ncJqWqX897NalDcETLucDgkjAGe&#xa;ANu3nn5TTV0W9Llz5SggDDSHj8AvvW7bJCsZaBdsbMWA5xjoMZ7YA/n3plxexQMikhndwiqCByfUnj/A&#xa;Djqa+cqVG5uyPrKNWUacU3axjJ4fuHnLyXMaheECqzY45zyKV9N09Wktrq/JfGWjUBSRjPQ5JGPStu23&#xa;+UfMkV33Nkr0HJ4H06fhVfTbGK21qafUNxtJwyGSJvnG5hjIx0xlTjsRTpvnmot2Jq1ZRpuS9fUZpnh6&#xa;01RYdKDsrPPvacoxZ4Ch3JkDGRheWwMscc5Bsz+Hp/D93JbfaRMssCbXIIIIUgk4HHIOOvBHfr2GnSeH&#xa;9Jgma2uopriHzFkcspnY7uVIABJ3YUDHoBXP3UUeua3PdXMbIfKESAhGKKMEqcg4bcxOQc8844z6FWEI&#xa;00p2bPIhiasqj5W7djGVfLsXmgeZvKQpFK8YUyyBvvHO3Bzkr94jgZ4OfSNE1N9SsQ80JjnTCyYwVJ9i&#xa;CR+Gcj8RnkLgW927G1RZ3jQKQruGZRnhCowpBwSR2ziuy0G3mtNEtre4hEUsalSgbdgAnHPfjFaYRyd2&#xa;1ZM5sTJOyTvY1KKKK7jlErK8R213eaDd29ju+0ugCYfac5HfIxxmtas/Wb5tL0PUNQRBI1rbSTqpOAxV&#xa;S2CffFNOzuJq6secab4Y8XQarZSzCYQxzxtITdAjaGBbjPPGeK39W0galrWoyS6RcwxG38kzW0URa6Ja&#xa;Nizbj8wXYFAIPG71Apy+LNRXULa1NpHM8u1jGIJ4XZWcKdquuflBLEkYwOo5If4e8ZXGt3enWz2Agae2&#xa;Mtwd5IRiFZFU4+bKMGPpuX3q6lR1HdpfIzpUlTTSbfqUV029vbARy6aipYmKL7JFEqCSNrgSSKVB25MS&#xa;RFgDgksvfFPh0eayhttQk0mKOfT7eWWBjGpleVy6ww5XJ2ohCkZxllwflNdLquuR2mh6lqFqVleyVgyu&#xa;GADL1B4z+VZdv41hW1tJLyAn7RctAkluy7WAkEYfa7K+3c2DhTjB9s5mpStfD9zp+soFs5pI4XBN2rKr&#xa;SWwtBGYgwIYMZhuxwM/NnNWxYXj/Cwac9nci+/soW32cSASeYI9uNwOMZGc55HX0pF8f2jvHItlcfZDD&#xa;NLJKZIt0ZQxABlDkqSZQMNgg4yAMkaWleJbfWLw21vaXQZIxJI7BNsYLOoyQxzkxnG3I5HPXABiTadfy&#xa;a818LC6VzKZRcRmMSLb/ZCnkqSfved8wB+XJBzVPUdC1KbU55U06aQm4EtzKxTN1bb4G8r73zHajrg4H&#xa;ykdGGfRaKAMDRrLULbQYIUMVo4uJXWKaLzNkLSuyRgKwCkIVHUgYxg1T16wa98RWbDSpSIYmY30Kp5j5&#xa;V1EQYsCoG4sc8ElR3JHV0UAecQ6LftpFzo9pZNbLDDcTWjeUkMju0AiiMmz5QxZpeeDhFJ9auReHo7iV&#xa;fM0WK1sRfG6jMkSBrWFEjOxQM7S8qs2F42ls4JFd3RQB5+uj6hPeWd6bKR5rlra5SU7c2jG5aWdSScrm&#xa;JlTjO4Jg10Ph6Ca30e8hntbqH/Srl0WR8uyPIzKQ2SckMOpyDW/RQB53baLqZi0cSabP5sEdqkTyMpNq&#xa;0c+6UlskjdHgZGdwUg9ebOv6Tfaj9iawsbpNRSGVftlwIldQ0UirmVW3AqzA7V4O7nuR3dFAHP+F7JrO&#xa;C/22BsLaW5D21sQq+WnlRqeFJAy4c8dc5710FFFACVwfxIe8uLG302zi8wybppcsBhUGR17dT6/LXeVx&#xa;fjwwsLIEjzwzFcHkLgZ/AkCsq8+Sm2dWCTeIjbc8sGj3TZBCj33VIuiXPBMkSn8T/St2mK+9uCMBip56&#xa;14v1moz7Jz6GUNExlpLngZLHb/UmrVnptrDeWk/+ujRw5jbaRIoPI6Yx2qS/tnurYxo4U7geeh9q7XRL&#xa;XRG03T7m+kKSwRiFhMw8tiFI7jGOCR05/CtqMp1PtWfY48bX9lTV1dPTToYreAIbjSJ9UtLzaxMssK+W&#xa;QoUMCowwz90N+LDkgZMEMO3DKwnlkUqkSLkDIIJbIwMdh6kHPHPb6xfW0mmyafbMpikiCF0IKbSMbQfc&#xa;emeo9ayrayRI9kUYAZQCoUDA9yoHPvV4upFNKOrX5nlYfE1ZQaqN2vpcd4flbSb57dPMltnC8YBYNjBO&#xa;M/4kjFdwK5vSNPaHUVnRdyBSpbcQNpGQQD7gD8D6V0ldmF5+T3lbyPLxMlKd07i0UUV1GAlZGsX9itld&#xa;2c91AJ2t3YQlxvKkEAhc5PPH1rQuklltJkglMUrIQkmM7WI4ODwcGuJHhG/mvVlljhDqxXz3lLnkDLAY&#xa;5PbnByPTmsas5Rsoq9zalCMruUrWMeXzntovKZFaXaQc5yu4biB6YBAPc4xnBxKditg7EU5ZmZWI4/3V&#xa;JzTljlvtSuo4Y7iJImWJECAt8oCAEjcNvA+bgcnvmpr6xk0+eSFrhLqFdoaULgqxzlWHT/DIzXjVaDg3&#xa;JLRfiexSxMZpRb1flsXdU021sbHT5oJg00yqH2PlGVYwuV46ZC89efy5+8uVEdwqBZWVVXYcHDN0yDxj&#xa;BBPPQVSMtxHrDJ5PnxeYqwRx5ZtxXoF/h6k9exOCTkXJdH1MXVsjyLcXaRq020lYYnJO5d2DuwNo4JPB&#xa;GADVVI+0ftUrLQKc1RXs27vX7h+hoGltLdp4ZmUtNiPG1VAwAuBj7xB7d/Sukg0u2u9VM5iGUG6VgT85&#xa;IwFPqMDJH09araVpJs1FvDIn2iVSZJxEFAVegVR2BbgEnqSSe+t4fWAaaXhBXe53qWJKsoCkEHGD8uSM&#xa;DknioitHK5z4ird2sZslpq1i11HFctJLeyhxMqsojUHGwEHKszFcHOMDB6ZPdVzcluraxbvvld2lXMO7&#xa;ACqGO4AYyAxBOcjIxXS16+FcpQuzzKiV9AooorpIEqG5tory0mtZ0EkE8bRyIejKRgj8QTU9V7u7t7C1&#xa;kubqVYoI13PI5wFHqTQCV9EKLaIXf2kRjztnl7++3OcfnXOQ61o1trKaUtnLE2mI0EUg2ssYESsQAGL4&#xa;2lRkrjIxnJGbVv408OXVzHbwazZyTSsERFlBLMTgAe5NVNS8IWN5ezXNxqNxCbmcyoo8tQJWiEWASuWB&#xa;UH5SSDk5B4wFShKOjVi/Nreg30Ys5r2B1uVx5bEjILMuD6fMjLg45BHWqFpb+HNcuby8trZ5DbzB3eNn&#xa;VZmISQMFBAYZCkZGCRkZzkrF4H06PTp7IzTvFPs3gBUGFnkmwAqgAFpWHA6AY55plne6ToX9oQyazcXV&#xa;z5ixyt5G9kdYuAFjTBwsZY8HBBzjpQSWdO0XQ9V062v4rSZo7qIuDPNIZCrqoKsSxJGFXgkgFQRggVrW&#xa;emW1jI7wJJ5jqqNJLK0jFVLEAsxJOCzd+9Z2iXWnadpf2GK/eeGwi+e5kjIQKBnlwoQkAjIByO9TR+Jd&#xa;MkW3ZJJytzCJ4GFrLtlUpvG07cM20E7R83B44oA2aKzF1zTm0qbVGuDHZwbvNeWNkKFSQwKsAwII6YzT&#xa;W1yxS7ktgbl5Y4xKwitZZAFILDLKpGSAcLnJ4AGSBQBq0Vif8JNpYjil8y62SyiEH7HNhXL7ArfL8p3Y&#xa;GGweR2IqNvF2jRGUSz3EbRAmRJLOZCqgbixUoCFA5LdBkZPIoA36KKKACiiigAooooAKKKKAIZZkgiaW&#xa;WRY40BZmcgAAdSSegrhPFJi1HVoDZSRy/6PuZ0cbQASck5wMDnJ6CtnxNouo6rJEbecGBQB5LHAByct7&#xa;8EdemDjrWG3h6TSdHmEu3zLhhGPL6KoYHnoeSBn0xz3rixLlJODWnc9HCKFK1XnV9rHOugWZwHEiBvlZ&#xa;RgHjqM++fSui8MaZY6g9xFPPHKGjG6MblbhgeMgZGQMkdOPWkPhlRZzTyTNEVwEDj75PIA/DH19q527j&#xa;uLUuisY5FIGc4yCfqOCK86H7qacloz2ZSjiabhTnZrqS3giiup1iYeSshEbE9Rkgc/TFVHMj3Eahwsa5&#xa;O0jlj7e3IrSstKuLu0e6dvJgVGCtgsXfHCqOp56nHQdqs2Oinesl0BtUYVWwWIwPvfkOOc9zWc1y+89L&#xa;9DRYmmly3u1+ZpaXDtsYVAzvXPHfPP9a6AWDJaRwQsqgMC5YbicdhUMFoI57bdnLgnODwRg9cde3Xpnr&#xa;21JELxsisVLAgMOo96KacbSvueFiK3tJNC6e0kjSyyB1LlTtZj8vHTGcAgYzjrWhVWyTbCxI5Zyc5Jzz&#xa;x19gB+FW696nflVzz3uFFFFaCCiiigDip/sg1BY9NkmttgJbbMwZgpxgKTnaDxzx1GOc1n6k11BaSiFB&#xa;NGCsTRqnzfM20fMxILHcvBHfJ610mo6U8d5Jd2turLKB5ioAGBBPzY/iznnv9e3Pq2pahdSWdlZSxmKe&#xa;Kd3uY1AVgCQCpOSCFXBBUg4OT0ry6kKjq2a06djujOKp3T169y74f8A7Bh0eJAI7a8jt/LmuNv76PORl&#xa;pdowxxkZxngjIxWdLmHSoZre9dRDw8UaoA3XaBuUjaQMHaeexGCK0Fu5GvJZnikivo38ryYlEmY8kbnC&#xa;tk4JJHI6cfeNTW8tkmpQG6tDbakyLhlQgOWUZBK5U8qRgk425HHNOvK6SktuxjBtO6ZXt52gkuZonu5B&#xa;bhPMWWFd5UsxOCvy7SAeeOi5OOa0bFLaSZ5Hghjv42PnKgwyswHJ+q7eamvPJMsCSwSMWJ2yopHlYxyW&#xa;HK/h/LNZMl7HZakZLGzjlWSNd9wXbc/zEAlip3AZ67uc47DOTcZr3VZ/gO7Tu3c3tLiMt3cXbz72BMKx&#xa;AACIBj+OWG089sYrXrK0CRZdN3EN5vmMJWbGWYHGeOMEYx7YrVr1KSSikjnk7u4tFFFaCEzWZr2mw6xo&#xa;V5p88xgjuIyjSDHyg9+eK0zWbrmnyarot3YxyBHnQqGI4FBVN2kne2u557pPwo0jTdZsr6LXXlkt50lS&#xa;MhfmKkMBwe+K7a6s9PtNe/tWS/jhuBEWkS4dWURDCsy7uYxkjJUhSTyCTmuQ0z4aX1jq1ndvf27LBOkr&#xa;BVbJCkHA/KtfXPCF5d6vJqNtePKZIyrpM6qQPNgcKjKu5QFibac/KxDd2JSk3ujrxslKatPn03taxp6J&#xa;ZaLpV1H9k1G2lkvUPkqq2yGVV5JXy0UsBjnqBXP33hTRfO+zwazaos8ojjtru5aXc6q8ZCkuGLBpc8HO&#xa;eDyQRLY+EtatrncuoNAbjIkuYbk740LzMV2ldrsfNU7iOG3Njs1m38M6np8UOmx+Rcaab43T7pRG5ClW&#xa;jUBUxjcu5u5xjOCaZxEWkeFdMurqSRNWgv7eJ38w2khWV5WkWQGVkbBKsCVGBgN7cutLFdGOkxv4h0xo&#xa;re1+y2K3RJLSKoV2X94NxLEDHO0HaMZOdOwt9UtdZubiexjZL9kR1FwZPJVEkJbcVHyliqhO25m7kVQh&#xa;0DVIbTTVit4LW7tppgssN2wWKJ5lkZdgXDgquMHoVGMZyACCJ7W30C/00a/osVjMk0Zm80bI5pWJMYBf&#xa;gKpJwTklsjAGKfP9km1FLu28RaDb3lrAd8seC7HYYwJP3nMYZ1YA9woz3N2LSdXvYb8XqW8M1/KkdxJF&#xa;OWC2y5zGo2gg7SVyTnLs3GAtLq/h+71B5518sPHJAtpGjlCkKMrvtbHyuzD0xhFHHJABPpWin7PpjveQ&#xa;XEEDPcgwqStxK/IlLFju+87ehLAjG0Vm634XhurVIrrVLaO5ma4lkknXbudlA8xQGBBjRQoGSNo59a29&#xa;I0u6tND060kvXhltgvmGAKRKB/CxZTkHuQFJOSMZrJ8T+ErvV717y2vSXeKWIxT7fLVWgdAoIQsAWbJ5&#xa;755wAADoY9Y02SOBk1K0cTuY4WEynzWHBC4PzHPYUXGsaZaFludRs4SsoiIknVSHIDBTk/ewQcdcEGuP&#xa;t/CutQ6gLyK6MbyyDbIbtmeFfMVm3HbiYsoK4YcYQc43CVvCeo2mka1p1pP9qTUZPlluJgjKTGqln2p8&#xa;+5gdwPUeu40Adsk0UkskaSIzxkB1BBKkjIz6cVWn1XT7WLzLi/tYo95j3STKo3jqMk9Rg8deKy7eC+0/&#xa;WNRnjsIXjvbmEKY5cEKFCu7DbxgAkcnJwMjOawtR8K6peWE8EcVtbhri6ZFhuCuBKu1cnZgrkncuOcg5&#xa;yMEA66XW9Kg+0ebqdlH9mZVn33CjyixwobJ+Uk8DPWhNb0mSbyk1SyaXy/N8sXCk7Mbt2M5xjnPTHNcv&#xa;/wjOobz58EMyW7zGIw3bQtIZLgTK2QuVK4Axk5JPbqy68M63dW7wGaNZJrdPt0v2ttt5IsaLjZtwmSmC&#xa;y84HQ5wADtLa5t7y3S4tp454X5WSJgytzjgjg81YrL0O3vLbTVS9kLyeY7KDKZCiFiVUueWIUgZP5nqd&#xa;SgBKy9Ya1SFXuYi5GQgGR1HOT0A47+lalV721W8tXhfHzDgkZwfWs5puLSKg7STZyYM0q7fMdiSSgZmc&#xa;An0yen5e2KILSEakJNTt4zAishL4ZeQDyNp5xgckctxkmpbpbjSj500EjKhGSilh27/AI4rSXzoY5Wmg&#xa;/dyyHIwo2rt53c4PTjpxjNeRRhVVRzktu531pqMUoPR9hs8NlJPAkQVUWMoIwCojA5GBgYz3+g9qzlt1&#xa;gkmWaSeTa2cqFIUH1Awcccd/rxWsZd7OHhdoUBJ3R5J5BGPXjPQZ49eKltjEYFWHPlqNoDA5Hsc8/nTq&#xa;uLqczV/yMIVJKNkyN3AOJ418tZAAzjAXnCnn1YcH3FTJGqokSMI1PyqTzjjjr3qEQW8kWfKZV5xE2VXP&#xa;+70/HFOt5ZjcRrJBtRTg7WBXOODyAcDp9fpy4qMqisrLqmQ20tTWVQihR0AwKdRRXsmAUUUUAFFFFABR&#xa;RRQBi6tYWjSR6gzx291EVRbh5CgZdwOxjnkHoM5wT07Gr/atuIi5DF1jEhRULHkE4B6E8E/TnpzUviK5&#xa;WNrICPzXiuBKyg8Iu1l3MP7oLD37gHFYc6pLDcSJGZbrcqJGX2mcs2SMLkhSD3+ZfmzwK4cRCM5I1g2k&#xa;TWj3V5c6hZm1C2sTyMUdjumLM2Bu6bWO76DA+kT39rol3JHKs15elAXWJfljRm7ljgZ45JyxGepNTw6N&#xa;f3s95HGh0+1mAXcqAZwMEBeG6lvvZGAMcYrJ1izbTJ5BeLEozEPtCokccihupXjcwYr8ozwoyRkEio2T&#xa;vsZyk3qbmm63bvq6oYjbO0z2pV8DftztOfquAOfvcV1lcKrWVnNBNJp7PCX81JISWkQoAQWJYhgQM4GA&#xa;OcZ613CsHUEEEEcEHINdNKyjZMhO4+iiitShKo6vBNc6ZPFbEiZlwpDY5+tX6q33mCzk8nPmYG3HXrUz&#xa;+FlQbUk0cZZaFr0d/bSSu3lpKjP++zwGBPGeeKTxF4b1q71mS9jlW7gkgeIqkYVok863YIoZ9rHakjcr&#xa;hiCG4IA24m1P7RFu+0bfMXOQcYyM5/CsTxGPEy6zLJGZBZPbukf2WWVhGomt/mdVUEtgyE7Wzt3BSCMn&#xa;DC2s7Jr1N8VOU5Jyt8inp3h/wAQW17DJHEIZgrJBNJDE8VsjPMSxXduVsMh2owXkL91eJ08NX9vaQ201&#xa;iLq6TVRcQ3axoAE8xGYszuzqW2liVOSQBz0MGnXHiVL2AiKeWUKyWsNz9oWJgWmHmM+cbQAnEis23bjD&#xa;HJnRdYitYo72TUG1JNVBQxSXDLLCZELcqqoB97AZSoUMBgEkdJzG7pTS6dd3sE2nXaC91GRoTuRsr5QJ&#xa;ckMSBlCOecsvHpzcvh/VpotKC6ZMhtZJsJI0T43XKyLuO8lRtB+ZSWyCD2B0dCurrT2u4tXnvJIXjSCO&#xa;RWnka4nVZWldFZQy5VVO1cqCMKSazkfU3SCSFtZUSOzWkD/AGgmKQyxYSVm5Ybck7iVG5wCQuaAIT4Wv&#xa;TpwEukTmaCG32oq28i3F4iTq8rq5KsreauScMSB0xmrV74avjd3htdOlWK4dXvHEdvvkxLGSkRPJjKhi&#xa;VkyMKoxyRVSJtWbQtSF1Jqy3LW8TW7KLvInIl3KdhzvAwCV/dk7SF7VsTszaxe5k1VLVrQiT/j7xFOHX&#xa;GdpGQeceUVXAbOQykAHQaXDqiaNp0bm2tpo9omjMAYbBwFUIwVWxjkblBzgEYrB8W+H9Z1K9N1ZzR3Ef&#xa;kzxR2+wo0QaB14beASzMOdvHHIAJO3or6mvh3SN0JknMMYuftczLIo2jc33SWb2bafUg5rE8WjxMt4Zb&#xa;ESfYxDMkS2kzeZkwOdzKEILb9oXk8gYGW4AMu18Pa5b30E0dodiT7rUSQwbY8yKXeSMHCErnBiIOVycF&#xa;sGS78L6oml65aXNsNUubuYSW9ysEa5k8lFLHfISgZhtyuCoB24+XEVrP4ghvoCwu54I5/8AR0K3ISctI&#xa;oY7i25VVTkCXcOGxlcESXUXjcaZraFlMol80vDdShj+5QhIB5XC7s8DnggkkliAaem6fdaL4luLpreRr&#xa;eeRoVKxKsk7yy79zMHO5Y13YLBSFOACax5/D15c2dzKvhx7cT+dtsF8kJDI0QSKQbW27l2ncwwQX4yFz&#xa;XTWmLPXby/uJL6K3d0tIYpJpZFlldgWdVYkBQSFBAAAVj93GOenlmm8P6lLatrsM0khawgkF75i4QAZY&#xa;9CxBIDEqpIyCdwoAdbeHr2G71Jr7SpbqO487JWKByGMxZGUM2HG05+cZU8LwSFnttDnim01p/D5drfTV&#xa;t7wKsLLM3louFYtucgrtw/y4UnrtJhuLnW1sfEocah9oaG6aJ4Y5g0LLIVgRBllbcpU5RVIAJbk5romu&#xa;nfxJcfvNQFq+nBxtgk2I2SSV+XG/BHHLdsdqAJ/C1lNp/h+G1ngMLLLKyxkKCFaVmXIUlVJBBIXgZwAA&#xa;MDcrH8MS3E/hbSXuhP9p+yRCb7QrLJvCgNuDAHOc9evWtigAooooAKY8aSxtHIAyMCCCOCDT6azrGpd2&#xa;CqBkknAAoAyWlt7Z2gSVCsaklVbJjAxwQOe/FRX12IIy6KztEQxwGwAQwycdRwfp17UxpTtZDG2DKx+Y&#xa;gDaxJBJPb5sY4PX05JLeaQtDFEroGG13yxBHJ5PHHv3x6V5U6cXJtL5I1u0hbkn/Ws/lqq5Zhk8D0H+T&#xa;zjuaiF7HMpTyXYMwXaygE5Xd0Jz0FSXemXJt5Jt4dygBjMYOPp15yc8eg64xWbJNDHdMSi+d8oXd8wVe&#xa;vzBWBPYY6Y9elT9XaspPUxlK2rOmsrhbm2yHVijFGwe4OOfQ9D+NXKxtBntZIporeJoirbnUngk8ZHOc&#xa;cd62K9SPwrW4J3VxaKKKsYUUUUAFFFFAGD4g0CPWYk6B1yDg7C4IxgsASMde49RTtF0CDSwZGWFrjHDi&#xa;MZXPUburc+uPoM1uUVPKr3HfSwVkeIYVm0lw2Rh0+YdVyQpI9Dgmteua12/f7S9myKsCRiUsxIaQgg4X&#xa;jAAO3JyeeMDrSm7RbJbsjDsNOR9NgA3ARswSF2bao3YYMoPzHg8noTxt4x1NhqUK6ePtXk2ghcQHkIhI&#xa;AI2jPAIPA6isHT0azsWE8zGOMgK8rYwqqFycgEZILc+vboMzVrj7PfLcwFW8nJYFioZsfdXAOSQMHjgD&#xa;16ctOo1JrcxU+V6noyMrqGVgVIyCOQRT65TwZLPJaXO8hoWZHVgrDDFcMvzE8ABcdufwHVdq7E7o2Tur&#xa;i1DOxSFmBwRjn8amqGeTy4S4AJGMZ9zilJ2i2Mqi4bcoE2csBjjkEj2rkvEXiDXrHWpIkie0tGgYQu3l&#xa;FWYTW6+aWJYqMSsvKkKCGIbkL1gvJdy5CYLAHAPcgetc1rXi+7s9YlsILE7BCwjae3kzLL5sKfLnarKf&#xa;OIA3DcwAyAQTjh5KSetxtp7IzNO8W6s97EJN91tDxxWiSxJLdOWmUHlcMo8tRuVlHBYgg4Eq+IfE4tIz&#xa;LZTqU1WOG4mCwY2tPGnlBd5wCHYbuTwOeSwnsvGly0yvcWZFrbBo5jDaMztJulURhd+5G/dAbQH+Ylcj&#xa;AJfa+KtXuRDctaRW1kt1LDdytbOxiIaMRqQzI3IdgWCkAr0AroEaOn3ZjbULq+1tmshI0FpPdCFWDIrG&#xa;VlIRQRwRgg8RE9DWQmv3D6daXcHiDzS+oKkUTPAZZYGkQfOgTJbBOFXawDjPzDFbWk3N5qElxFqsUEOo&#xa;2YEsUX2cgQq4dVfIkYOCFYcbTwwIGay18U30c9sJoYGtQzyvfRWp2vAHRA6oZNyglm+YFuFDBSG4AKtp&#xa;4svpNHa4ur+KC48+xkkJeNo41ml2tD91SrKFYMDuIGDnnjT1bXri2/4SlYdVt0ksrFJ7fKqfJYq+cgnk&#xa;khevHI49aereJtY0y4u7PyLWe4jcSKEtH3FPKlbds8w7lzGF3bgfvDbwMtj8Xapc3bpBaQPFIX2Sx20k&#xa;o2JKkbOu1szAbjuAClSB94c0Adl9sYwW0sEL3aTFQXhZMKpH3ySwyv+7k+gNcr4t17XNLvT9lgkgs1gn&#xa;2z4icSuIHcMQW3AKyjjAzhs8Yzu6TrQu9D069uIpQ90FUCG3kZd2SM4AJVTjOWwACMmsjxL4uudH1A20&#xa;FmSiQzM0s8Mm13WFpFVWA24yoBOf4sDkHABjWvivVUv4op5zJDFPtKpNEXuSZFQKjbNsoXcCduwjdgnK&#xa;nK3HiLX44NQnvpzpptLrc9v5lusjRfZ1byoiVcOwYg843buCv3RctvGF59sW3uLRYktJQLp/sh3RhnCo&#xa;PL8zKk7uql+Cpxg8Rf8Jxezy3CDTWhMM7SfvbRy0MCxK5LKzJuf5uingdA3BYA1NK1Vhr15bajqcNwEk&#xa;LQ7JYmjh3SlERgEVll5C7SzZOcc8VhT+LLuOB5rPWlutPM0jpcvNCkrIkYYqpEZUFjuKhlBIU8gEEdRa&#xa;3E1z4jmsrxLeSBES8tXELIxJJAOSzB9oIBOFwSMDkYxr/xLrFhZ3k4itLi1tmlIvIbGVo3MaBtu1WYqN&#xa;25fMyVBUjGaAItT8RX0Oq3EFnq5kikeLaGeD9yWdgyFtmIiMbQHDFiMAg5NZ1r4p167aMR3y7nhTIIhU&#xa;j/R4pHbaw+U/M5Vy2wkgEAYJ6S+1+/he8t4rCGSdrqGCBQm4kOm4lwzKCQA3G4DOBmoLHxRLq146RmCC&#xa;2ZVgiuZrQlJJfJWZtw80MoCs3ykY+U/MelAGz4WvrjUdDS5uWkYmaVY3k2bnjWRgrHZ8pyoHK8HqOtbl&#xa;ZXh+6vL3R4Lq98rzJtzp5UbRgxknYSrMxBK7SRngnHatWgAooooAKaVDAggEHsRTqKAMYaIhc7pCwyCC&#xa;53cgk9CMDrWuqqihVAAHAAp1FRGEY7A22JXF6zbtFqruNuGfAIX7vAY/ic98jrwOMdZeTPbWkkqR+Yyr&#xa;kKDjJ+vauInme5na5aTM0jAlVHGDjnnoAFAHc5+pEVXokYV2uW3U0dFujaXaRGJXV/kD4JcZI6sTyOvb&#xa;PT0rp4bq3nlkjilR3Q4dVIJH1rhpJEjRnd9gUZLBsEflVHS7+R5YIrbmVW3IGGPMYEHG0YGOfX8utOk5&#xa;ON7aIwp4izUGen0UUVqdwUUUUAFFFFABRRRQAVx2r2ELeISzRN5km2YuARkKpUjI4OCqH1H0xnsK47VU&#xa;v49XW7ui4iaYQWsEZyxTaSzHnGMgHJwcHnkLWVVXiyZfCyZoUaNUKjYoxt/hIxjBHcc9KwblHRngWLeT&#xa;OUPOAFcnk+ow2D04Lc1vPPEhkDyopjQO+5gNqnPzH0Hynn2Nc7Le2Op3Mk8NzGTGVMTK3IK5w+O/JPtg&#xa;CuSjfmOV6WbPRLOzgsbWO3t4wkaDAAH4kk9yTyT3NWqzNFvL29sPNvbN7aUMVAYY3qOjYySufQ81p16B&#xa;1rYSoLyZYLSSV03qoyV9asVU1Ga3gsJZboHyFXL4BPH4UWvoDdlcy4tYtZJ4kFmFLOFDYHBJAB6Vj674&#xa;q0garPp8ljb38kFu4cu65DeZCDGFwWI+ZWJAJymAGYYFq11rw3NdQxwpIJWkUJlW+8SMd/XFN8RahoP9&#xa;oNDfwzzXFvbM/mQnaI/3sBxu3ABg3ktkn5QMkgHmYwcdzOlLmTd0/QzrDxHoH2u1uH0yxs4rWF2e8bO2&#xa;IAy4CMI8EkKzfMVbDnAJLCkg8T6Hqd5av8A2TaGQXTs00h3LCA6AOzIrAOxZSASACvLA4zNps/hmXVrW&#xa;OCCdJwrTyebdKFVleU73BfEh3eawZQw5DEgbTSzT6HdwjUE0fUZoWu2ikaORYwzNIgAZWkUsrMEIXB46&#xa;gZINGpa0+wsb66v7N9EsYZLJ93lxSExys8boN2UU8KWXoy4Y4JIIGU+saRZNbxT+H9MhEFw+1hMNhZXj&#xa;VjASg8xgcZGFwY++Aa27XTrK8a8ltX1MNBM8NwHuHEs22NgqBmbIUeaWXkfNhveq2nSaNJbabZLbakkP&#xa;2xreGCScyRiSNN4DFXZWUCPgbiAwIxkNgAq311otnbTwHw3aBxftAI2TKHbFuMjFEYqNhK4APDYOATiW&#xa;G/0nUJtUFlpOmFcSfvLiRoluFjdRK2REV2hgMkFskLuAyKrTah4ZbS72/ng1NFZRqKgTt5kySRuA0e1y&#xa;QGRHypK4C5IGAavSQ+F4L++svJmxFAd6ozGIB5F3RIoPLMyplQPmJx1JFAG3p2pwDRtOmvI4NMN0qLDb&#xa;NKAASPlRchcnGPlwD2xxWN4j8VaTZ37adcWkF9LFDM8iSOg2kQu2zDZyWQMD2AYZ64rpdNvo9U0u0v4V&#xa;dYrqFJkD4DBWAIBAJGcH1NYXie/0MSLaapbzXJWGaVlhUnYvlPkEgjBKhwB1yM8YzQBjWeu6HLdWUbaN&#xa;YxeTKxadt3lw5kVQwYx5DMw6OE+ZRz90mSbxBp2uadqd5aaLpuoRW1yvyzzgNcM0arGwCo3zNu2BWwcY&#xa;BxyAWk/hi71C0jWC6a8uJyX33a5kKspVnbzMSqCFwFLH5SMcMKuTato2y/1S20y9u47O7E00kRUKzrCo&#xa;V1VnXcu1gFwDkgMAflYgF2ysNOvdUv4m0qK2ltrmKR3Qr+/bHmKxwOgZtwB/iGayraTTra2mt38NWEa2&#xa;uo21q0VuwMaF2VVfDIp+UvwApB4wepF6wksdT1ec239o2k00vnuzynbcCF9jKoDHaAwUMMLkHHIJrPmu&#xa;dAi0y/a8t9VjeC6jaVWujLM7xgOoDLI2QoG4qWGMEkc5IBDc+JPDyXepRXumaesszOAplUyTPFLtAlBU&#xa;bGztZSSfly2RtpsPirwjJcQb7DTkSTTd87hozsBSPEAXGWyrgdhgAc8hdv7XDDrV+n9i6ncXhi3MzTRM&#xa;DFvIG3dLhFJ3EA7Sdp7rgMsr/Tc6SbTSL1l/s8tpz5TEkRSNioDPkHG0ZYAZB555ANfw/rCa7o8d+iJH&#xa;ueRCiSrIAVdl+8OD93PHrWrWVoMtpNpSvZwSQRGaYNFIQSsglYSAkEg/OG6Ej04rVoAKKKKACiiigAoo&#xa;ooApanCJrCRCgfGGClcgkEEZHpxXJ3AtxMTbY8sgEbfu9O3tXWX63ElsY7Y4kchd2cbR3PX8OOea4+SM&#xa;WzOhP7tCwVmPBUHg59xzXNWj7yZzYi9kUdTtzPZSbMbl+b6gdv1NafgW2jmilvJY1aWBvJicnJVT8xHX&#xa;1b0zyfWs+9u4rWFi7LuKkqp6mjwXqGoQ3n2aC2a4tZHBlOcCLj72Tx0HTvjiuihzOm10OOlZVk31PSKK&#xa;KKZ6oUUUUAFFFFABRRRQAlc/wCJ413abPlg6XO0YYgEMpBBHQ9jz6V0NUtRsI9StPs8jug3q4dMblKkE&#xa;EZBHbuKmSumhNXVjl2mazsXe5lTzQHYbnGDySAOBnAwOlY6i32w7ZJFYYVHjLKZMY4Vh97kDgZ5xXRyR&#xa;S2N/IsTHzIWDR7mPzIQMgn0JDD2IBA4FaRhGpXumahbsnkwCTcjcMpZcYwOhBBBB6c1z0qau1fUw9nd7&#xa;6oyfCs2ux3VxZanBK1uimRLiVm3Lk5CksPmJBJOCQuMccCut7UoorqN0rISqWqraPpdwL6UR2pT945bG&#xa;B65q9VDV9OTV9JurB5GjWeMoWUZI96atfUGk1ZnJ2Nv4NGoWxttVje4EqmJBMDubIwMY55xWrfeFNH1P&#xa;UHuoxHDexgq7wImdzPHKGcEHJzGvB6qzA5zWJp/wutNP1K1vF1Kd2t5llCGMAMQwOOvtXVTaLHPrkWpy&#xa;ysZIRiJYlEfGMEMw+Zhkk7SdvTgkZrSry3XK2/UUacYK0VY5u60Lw1o8sdvf37GF0e5mtJI1ZJQhkYsV&#xa;C8KPMYbRgEAAA4INzTLfw9Be2yWJmBN3LcLapasoSUgIWdQgKgAkAtgfNnnAIm13wbb6veSXUVzLBcSx&#xa;yJIxd2Vt0RjHy7gAADyBjOT0JzVCHwEY7lZRdxJl1ZhHGwaFFlMm2Ft25d25lYknIbjAG2sih739np39&#xa;oXMGuXZt1vZWv3hszN5TLCAVBWNgAuY2JOeVxk/MKl0yy0+8vFS21a5e5tr1r6U+QqCVtphOAUClQAVJ&#xa;TvyTk1YtPB8NiJreC4k+wzXkVw0Dsz5SONVWPLMeNyKxPcDbjFFt4fudO1iS+s3hHnSbBExkKQRFi7kA&#xa;uRuY7RhQoB5waAMeXSfB0umavPeBF+0H7NLJNYCCSEsp2hEKKd2JC27BJySTgYFqWy8IR6xNI2kt9oji&#xa;IeFdIlIYF8lwBH8x3Z+YZHf3qWfwQuoQXzXt0FubmRpEa0MkccbMFVm27/mLbecnjOB3Jv3uhXk0V/9m&#xa;v1jub2RVeVkYlbdRgRKQwI6sS2c5diMHGACvYS+HLXTdN0tI2uYrK3jmtGaxeTeqquJI2CYZsMpOzJGT&#xa;0wcPu/D+g+K4l1BIgryearTxxBJSSjQsG3LkMvIww4KgEcYpDoWrrcSTQX9jCy2otrTbanbaDC7tq78H&#xa;JXPI6BR0BzsaTZHTtLhtGMRaIEExhgCSScncSSTnJJJJJJ70AYo8EWXmOzXMx8+QPcqEQJNtdXUbQuFA&#xa;I/hwTuYnJORag8J6XayyG1hFvFLdR3LwwoqIxjUKikAfdDKrY/vD0yK6CigDnh4cW31aXU7SVIbmeVfN&#xa;dYI1Ii3bmUYX5ixABZiTjpg9YZ/BenX0F6upE3s92pVriWGMNGNoGVAUAE4BJxkkDsAB09FAGFeeHYbu&#xa;1vYBd3EJvJVaV0CnKKABFgqRswMEd8tn7xzE/hqV57i4Gs3qyy24tgyrEpiUAA7CE+XJG4474/ugDoqK&#xa;AKWm2I03T4bRZDIkK7UJVVwo6DCgDgcdKu0UUAFFFFABRRRQAUUUUAJXD3kfl3ARCwjVmADHJ2hmAHOT&#xa;xx+X4V3Nc/rOmKttcXaFjICHOT91QRux68ZPNY1YOVmuhlWi5RsjjNZSWcW8MKNIzFmCqMk4HYd+9Q6X&#xa;N4hjT7TppupI4nUMPmdcZAKhehOOOhx144Ndzod+GxaSsNwB8ok8kdxz6dh6fSr2j2LabpcFrI6s8YIZ&#xa;hn5iSTnnuc8+9b0qiVNJK5y08NeSmmy3bPLJaxPNF5UrIpeMNnaxHIz3xU9FFI7wooooAKKKKACiiigA&#xa;ooooAwdcSWKW3u0j3RgGOXacEZIKn0IByOo+9TdBuopL28gWVQ4COYicMCQQSVPI6Ac+nvWzc20N5A0F&#xa;xGskTY3Iw4ODkfqBWBdxJY63ZmNy8zbY9zPh0jLDj/aU46HJGCc+mLhafMLlV7nTUUUVsMKKKKACiiig&#xa;AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACmSRrIjI4BVgQQe4NPooA&#xa;4wWVxZyJgkvGQGYclSMc/Tv9K7BSGAIIIIyCKqXNlAxln4jdl+dwOCAO474FJpblrXBBABwATnAwMAe1&#xa;c9NShJxez2IhBQvbqX6KKK6CwooooAKKKKACiiigAooooAKZsUuHKjcAQDjkA4z/IflRRQA+iiigAooo&#xa;oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACmqqooVQA&#xa;oGAAMACiigB1FFFAH//2Q==&quot; width=&quot;351&quot; height=&quot;248&quot; />&lt;/p>&lt;/body>&lt;/html>" name="EXAMPLES" type="QString"/>
+    <Option name="HELP_URL" type="invalid"/>
+    <Option name="SHORT_DESCRIPTION" type="invalid"/>
+    <Option value="This is the raster grid layer showing the FPMs according to the number of days representing also the fraction of time." name="fpm__raster" type="QString"/>
+    <Option value="This is the vector layer showing the FPMs according to the number of specified intervals." name="fpm__vector" type="QString"/>
+    <Option value="Include AFs with high level of confidence" name="high" type="QString"/>
+    <Option value="Include AFs with low level of confidence" name="low" type="QString"/>
+    <Option value="Include AFs with nominal level of confidence" name="nominal" type="QString"/>
+    <Option name="select_the_layer_covering_selected_active_fires" type="invalid"/>
+    <Option name="select_the_layer_showing_delimited_fire_zones_doundaries" type="invalid"/>
+    <Option value="Once a value is specified for the interval length, the option defined for the number of intervals will not be operational as the number of intervals will be calculated according to the specified lenght of interval. You can defined the length of interval as below;&#xa;&#xa;1 → 1 hour&#xa;1.5 → 1 hour and 30 minutes&#xa;1.25 → 1 hour and 15 minutes&#xa;1.125 → 1 hour and 7 minutes and 30 seconds" name="specify_the_length_of_each_interval" type="QString"/>
+    <Option name="specify_the_number_of_intervals_for_the_fire_progressing_map" type="invalid"/>
+  </Option>
+  <Option value="Version2" name="internal_version" type="QString"/>
+  <Option name="modelVariables"/>
+  <Option value="FPM" name="model_group" type="QString"/>
+  <Option value="Production of Fire Progression Maps" name="model_name" type="QString"/>
+  <Option value="" name="outputGroup" type="QString"/>
+  <Option name="outputOrder"/>
+  <Option name="parameterDefinitions" type="Map">
+    <Option name="fpm__raster" type="Map">
+      <Option value="true" name="create_by_default" type="bool"/>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="FPM - Raster" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
+      <Option name="metadata" type="Map">
+        <Option value="sagang:cliprasterwithpolygon_1" name="_modelChildId" type="QString"/>
+        <Option value="FPM - Raster" name="_modelChildOutputName" type="QString"/>
+        <Option value="sagang" name="_modelChildProvider" type="QString"/>
+      </Option>
+      <Option value="fpm__raster" name="name" type="QString"/>
+      <Option value="rasterDestination" name="parameter_type" type="QString"/>
+      <Option value="false" name="supports_non_file_outputs" type="bool"/>
+    </Option>
+    <Option name="fpm__vector" type="Map">
+      <Option value="true" name="create_by_default" type="bool"/>
+      <Option value="-1" name="data_type" type="int"/>
+      <Option name="default" type="QgsProcessingOutputLayerDefinition">
+        <Option type="Map">
+          <Option name="create_options" type="Map">
+            <Option value="UTF-8" name="fileEncoding" type="QString"/>
+          </Option>
+          <Option name="sink" type="Map">
+            <Option value="true" name="active" type="bool"/>
+            <Option value="1" name="type" type="int"/>
+            <Option value="TEMPORARY_OUTPUT" name="val" type="QString"/>
+          </Option>
+        </Option>
+      </Option>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="FPM - Vector" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
+      <Option name="metadata" type="Map">
+        <Option value="native:fieldcalculator_2" name="_modelChildId" type="QString"/>
+        <Option value="FPM - Vector" name="_modelChildOutputName" type="QString"/>
+        <Option value="native" name="_modelChildProvider" type="QString"/>
+      </Option>
+      <Option value="fpm__vector" name="name" type="QString"/>
+      <Option value="sink" name="parameter_type" type="QString"/>
+      <Option value="true" name="supports_append" type="bool"/>
+      <Option value="true" name="supports_non_file_outputs" type="bool"/>
+    </Option>
+    <Option name="include_afs_with_high_level_of_confidence" type="Map">
+      <Option value="true" name="default" type="bool"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="Include AFs with high level of confidence" name="description" type="QString"/>
+      <Option value="2" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
+      <Option name="metadata"/>
+      <Option value="include_afs_with_high_level_of_confidence" name="name" type="QString"/>
+      <Option value="boolean" name="parameter_type" type="QString"/>
+    </Option>
+    <Option name="include_afs_with_low_level_of_confidence" type="Map">
+      <Option value="false" name="default" type="bool"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="Include AFs with low level of confidence" name="description" type="QString"/>
+      <Option value="2" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
+      <Option name="metadata"/>
+      <Option value="include_afs_with_low_level_of_confidence" name="name" type="QString"/>
+      <Option value="boolean" name="parameter_type" type="QString"/>
+    </Option>
+    <Option name="include_afs_with_nominal_level_of_confidence" type="Map">
+      <Option value="true" name="default" type="bool"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="Include AFs with nominal level of confidence" name="description" type="QString"/>
+      <Option value="2" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
+      <Option name="metadata"/>
+      <Option value="include_afs_with_nominal_level_of_confidence" name="name" type="QString"/>
+      <Option value="boolean" name="parameter_type" type="QString"/>
+    </Option>
+    <Option name="select_the_layer_covering_selected_active_fires" type="Map">
+      <Option name="data_types" type="List">
+        <Option value="0" type="int"/>
+      </Option>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="Select the layer covering selected Active Fires" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
+      <Option name="metadata"/>
+      <Option value="select_the_layer_covering_selected_active_fires" name="name" type="QString"/>
+      <Option value="vector" name="parameter_type" type="QString"/>
+    </Option>
+    <Option name="select_the_layer_showing_delimited_fire_zones_doundaries" type="Map">
+      <Option name="data_types" type="List">
+        <Option value="2" type="int"/>
+      </Option>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="Select the layer showing delimited fire zones doundaries" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
+      <Option name="metadata"/>
+      <Option value="select_the_layer_showing_delimited_fire_zones_doundaries" name="name" type="QString"/>
+      <Option value="vector" name="parameter_type" type="QString"/>
+    </Option>
+    <Option name="specify_the_length_of_each_interval" type="Map">
+      <Option value="1" name="data_type" type="int"/>
+      <Option value="0" name="default" type="double"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="Specify the length of each interval" name="description" type="QString"/>
+      <Option value="2" name="flags" type="int"/>
+      <Option value="Once a value is specified for the interval length, the option defined for the number of intervals will not be operational as the number of intervals will be calculated according to the specified lenght of interval. You can defined the length of interval as below;&#xa;&#xa;1 → 1 hour&#xa;1.5 → 1 hour and 30 minutes&#xa;1.25 → 1 hour and 15 minutes&#xa;1.125 → 1 hour and 7 minutes and 30 seconds" name="help" type="QString"/>
+      <Option value="48" name="max" type="double"/>
+      <Option name="metadata"/>
+      <Option value="0" name="min" type="double"/>
+      <Option value="specify_the_length_of_each_interval" name="name" type="QString"/>
+      <Option value="number" name="parameter_type" type="QString"/>
+    </Option>
+    <Option name="specify_the_number_of_intervals_for_the_fire_progressing_map" type="Map">
+      <Option value="0" name="data_type" type="int"/>
+      <Option value="9" name="default" type="double"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="Specify the number of intervals for the Fire Progressing Map" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
+      <Option value="30" name="max" type="double"/>
+      <Option name="metadata"/>
+      <Option value="2" name="min" type="double"/>
+      <Option value="specify_the_number_of_intervals_for_the_fire_progressing_map" name="name" type="QString"/>
+      <Option value="number" name="parameter_type" type="QString"/>
+    </Option>
+    <Option name="specify_the_resolution_for_fpm_in_raster_grid_format" type="Map">
+      <Option value="0" name="data_type" type="int"/>
+      <Option value="20" name="default" type="double"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="Specify the resolution for FPM in raster grid format" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
+      <Option value="100" name="max" type="double"/>
+      <Option name="metadata"/>
+      <Option value="5" name="min" type="double"/>
+      <Option value="specify_the_resolution_for_fpm_in_raster_grid_format" name="name" type="QString"/>
+      <Option value="number" name="parameter_type" type="QString"/>
+    </Option>
+  </Option>
+  <Option name="parameterOrder"/>
+  <Option name="parameters" type="Map">
+    <Option name="include_afs_with_high_level_of_confidence" type="Map">
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="614" name="component_pos_x" type="double"/>
+        <Option value="15" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="include_afs_with_high_level_of_confidence" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="711" name="component_pos_x" type="double"/>
+      <Option value="129" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option value="include_afs_with_high_level_of_confidence" name="name" type="QString"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+    </Option>
+    <Option name="include_afs_with_low_level_of_confidence" type="Map">
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1179" name="component_pos_x" type="double"/>
+        <Option value="15" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="include_afs_with_low_level_of_confidence" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="714" name="component_pos_x" type="double"/>
+      <Option value="241" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option value="include_afs_with_low_level_of_confidence" name="name" type="QString"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+    </Option>
+    <Option name="include_afs_with_nominal_level_of_confidence" type="Map">
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="959" name="component_pos_x" type="double"/>
+        <Option value="15" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="include_afs_with_nominal_level_of_confidence" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="714" name="component_pos_x" type="double"/>
+      <Option value="186" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option value="include_afs_with_nominal_level_of_confidence" name="name" type="QString"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+    </Option>
+    <Option name="select_the_layer_covering_selected_active_fires" type="Map">
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="Before the creation of Fire Progression Map (FPM), you should select the Active Fires (AF) corresponding to a delimited fire zone in the layer covering all AFs." name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="418" name="component_pos_x" type="double"/>
+        <Option value="61" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="select_the_layer_covering_selected_active_fires" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="222" name="component_pos_x" type="double"/>
+      <Option value="101" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option value="select_the_layer_covering_selected_active_fires" name="name" type="QString"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+    </Option>
+    <Option name="select_the_layer_showing_delimited_fire_zones_doundaries" type="Map">
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="933" name="component_pos_x" type="double"/>
+        <Option value="15" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="select_the_layer_showing_delimited_fire_zones_doundaries" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="454" name="component_pos_x" type="double"/>
+      <Option value="241" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option value="select_the_layer_showing_delimited_fire_zones_doundaries" name="name" type="QString"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+    </Option>
+    <Option name="specify_the_length_of_each_interval" type="Map">
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="Once a value is specified for the interval length, the option defined for the number of intervals will not be operational as the number of intervals will be calculated according to the specified lenght of interval. You can defined the length of interval as below;&#xa;&#xa;1 → 1 hour&#xa;1.5 → 1 hour and 30 minutes&#xa;1.25 → 1 hour and 15 minutes&#xa;1.125 → 1 hour and 7 minutes and 30 seconds&#xa;" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="812.2927794263106" name="component_pos_x" type="double"/>
+        <Option value="366.54104846686454" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="specify_the_length_of_each_interval" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="720" name="component_pos_x" type="double"/>
+      <Option value="301" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option value="specify_the_length_of_each_interval" name="name" type="QString"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+    </Option>
+    <Option name="specify_the_number_of_intervals_for_the_fire_progressing_map" type="Map">
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1134" name="component_pos_x" type="double"/>
+        <Option value="15" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="specify_the_number_of_intervals_for_the_fire_progressing_map" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="454" name="component_pos_x" type="double"/>
+      <Option value="176" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option value="specify_the_number_of_intervals_for_the_fire_progressing_map" name="name" type="QString"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+    </Option>
+    <Option name="specify_the_resolution_for_fpm_in_raster_grid_format" type="Map">
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1280" name="component_pos_x" type="double"/>
+        <Option value="32" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="specify_the_resolution_for_fpm_in_raster_grid_format" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="456" name="component_pos_x" type="double"/>
+      <Option value="122" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option value="specify_the_resolution_for_fpm_in_raster_grid_format" name="name" type="QString"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+    </Option>
+  </Option>
+</Option>

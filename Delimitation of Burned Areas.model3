@@ -1,0 +1,901 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option name="children" type="Map">
+    <Option name="native:fieldcalculator_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="native:fieldcalculator" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1165" name="component_pos_x" type="double"/>
+        <Option value="586" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Field calculator" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="517" name="component_pos_x" type="double"/>
+      <Option value="581" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="native:fieldcalculator_1" name="id" type="QString"/>
+      <Option name="outputs"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="FIELD_LENGTH" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="0" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="FIELD_NAME" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="area" name="static_value" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="FIELD_PRECISION" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="0" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="FIELD_TYPE" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="0" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="FORMULA" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value=" $area /10000" name="static_value" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option value="sagang:vectorizingrasterclasses_1" name="child_id" type="QString"/>
+            <Option value="POLYGONS" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:modelerrastercalc_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="native:modelerrastercalc" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="320" name="component_pos_x" type="double"/>
+        <Option value="115" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Raster calculator 1" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="174" name="component_pos_x" type="double"/>
+      <Option value="172" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="native:modelerrastercalc_1" name="id" type="QString"/>
+      <Option name="outputs" type="Map">
+        <Option name="Pre-NBR" type="Map">
+          <Option value="native:modelerrastercalc_1" name="child_id" type="QString"/>
+          <Option value="" name="color" type="QString"/>
+          <Option name="comment" type="Map">
+            <Option value="" name="color" type="QString"/>
+            <Option value="" name="component_description" type="QString"/>
+            <Option value="60" name="component_height" type="double"/>
+            <Option value="0" name="component_pos_x" type="double"/>
+            <Option value="0" name="component_pos_y" type="double"/>
+            <Option value="100" name="component_width" type="double"/>
+            <Option value="true" name="outputs_collapsed" type="bool"/>
+            <Option value="true" name="parameters_collapsed" type="bool"/>
+          </Option>
+          <Option value="Pre-NBR" name="component_description" type="QString"/>
+          <Option value="30" name="component_height" type="double"/>
+          <Option value="148" name="component_pos_x" type="double"/>
+          <Option value="269" name="component_pos_y" type="double"/>
+          <Option value="200" name="component_width" type="double"/>
+          <Option name="default_value" type="invalid"/>
+          <Option value="false" name="mandatory" type="bool"/>
+          <Option value="Pre-NBR" name="name" type="QString"/>
+          <Option value="OUTPUT" name="output_name" type="QString"/>
+          <Option value="true" name="outputs_collapsed" type="bool"/>
+          <Option value="true" name="parameters_collapsed" type="bool"/>
+        </Option>
+      </Option>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="CELL_SIZE" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="CRS" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="EXPRESSION" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value=" ( &quot;A@1&quot; - &quot;B@1&quot; )  /  ( &quot;A@1&quot; + &quot;B@1&quot; ) " name="static_value" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="EXTENT" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="LAYERS" type="List">
+          <Option type="Map">
+            <Option value="aprefire_nir_band_8_for_sentinel_and_band_5_for_landsat_89" name="parameter_name" type="QString"/>
+            <Option value="0" name="source" type="int"/>
+          </Option>
+          <Option type="Map">
+            <Option value="bprefire_swir_band_12_for_sentinel_and_band_7_for_landsat_89" name="parameter_name" type="QString"/>
+            <Option value="0" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:modelerrastercalc_2" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="native:modelerrastercalc" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="688" name="component_pos_x" type="double"/>
+        <Option value="168" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Raster calculator 2" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="676" name="component_pos_x" type="double"/>
+      <Option value="220" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="native:modelerrastercalc_2" name="id" type="QString"/>
+      <Option name="outputs" type="Map">
+        <Option name="Post-NBR" type="Map">
+          <Option value="native:modelerrastercalc_2" name="child_id" type="QString"/>
+          <Option value="" name="color" type="QString"/>
+          <Option name="comment" type="Map">
+            <Option value="" name="color" type="QString"/>
+            <Option value="" name="component_description" type="QString"/>
+            <Option value="60" name="component_height" type="double"/>
+            <Option value="0" name="component_pos_x" type="double"/>
+            <Option value="0" name="component_pos_y" type="double"/>
+            <Option value="100" name="component_width" type="double"/>
+            <Option value="true" name="outputs_collapsed" type="bool"/>
+            <Option value="true" name="parameters_collapsed" type="bool"/>
+          </Option>
+          <Option value="Post-NBR" name="component_description" type="QString"/>
+          <Option value="30" name="component_height" type="double"/>
+          <Option value="650" name="component_pos_x" type="double"/>
+          <Option value="316" name="component_pos_y" type="double"/>
+          <Option value="200" name="component_width" type="double"/>
+          <Option name="default_value" type="invalid"/>
+          <Option value="false" name="mandatory" type="bool"/>
+          <Option value="Post-NBR" name="name" type="QString"/>
+          <Option value="OUTPUT" name="output_name" type="QString"/>
+          <Option value="true" name="outputs_collapsed" type="bool"/>
+          <Option value="true" name="parameters_collapsed" type="bool"/>
+        </Option>
+      </Option>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="CELL_SIZE" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="CRS" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="EXPRESSION" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value=" ( &quot;A@1&quot; - &quot;B@1&quot; )  /  ( &quot;A@1&quot; + &quot;B@1&quot; ) " name="static_value" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="EXTENT" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="LAYERS" type="List">
+          <Option type="Map">
+            <Option value="cpostfire_nir_band_8_for_sentinel_and_band_5_for_landsat_89" name="parameter_name" type="QString"/>
+            <Option value="0" name="source" type="int"/>
+          </Option>
+          <Option type="Map">
+            <Option value="dpostfire_swir_band_12_for_sentinel_and_band_7_for_landsat_89" name="parameter_name" type="QString"/>
+            <Option value="0" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:modelerrastercalc_3" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="native:modelerrastercalc" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1086" name="component_pos_x" type="double"/>
+        <Option value="243" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Raster calculator" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="368" name="component_pos_x" type="double"/>
+      <Option value="342" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="native:modelerrastercalc_3" name="id" type="QString"/>
+      <Option name="outputs" type="Map">
+        <Option name="dNBR" type="Map">
+          <Option value="native:modelerrastercalc_3" name="child_id" type="QString"/>
+          <Option value="" name="color" type="QString"/>
+          <Option name="comment" type="Map">
+            <Option value="" name="color" type="QString"/>
+            <Option value="" name="component_description" type="QString"/>
+            <Option value="60" name="component_height" type="double"/>
+            <Option value="0" name="component_pos_x" type="double"/>
+            <Option value="0" name="component_pos_y" type="double"/>
+            <Option value="100" name="component_width" type="double"/>
+            <Option value="true" name="outputs_collapsed" type="bool"/>
+            <Option value="true" name="parameters_collapsed" type="bool"/>
+          </Option>
+          <Option value="dNBR" name="component_description" type="QString"/>
+          <Option value="30" name="component_height" type="double"/>
+          <Option value="245" name="component_pos_x" type="double"/>
+          <Option value="429" name="component_pos_y" type="double"/>
+          <Option value="200" name="component_width" type="double"/>
+          <Option name="default_value" type="invalid"/>
+          <Option value="false" name="mandatory" type="bool"/>
+          <Option value="dNBR" name="name" type="QString"/>
+          <Option value="OUTPUT" name="output_name" type="QString"/>
+          <Option value="true" name="outputs_collapsed" type="bool"/>
+          <Option value="true" name="parameters_collapsed" type="bool"/>
+        </Option>
+      </Option>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="CELL_SIZE" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="CRS" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="EXPRESSION" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="&quot;A@1&quot; - &quot;B@1&quot;" name="static_value" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="EXTENT" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="LAYERS" type="List">
+          <Option type="Map">
+            <Option value="native:modelerrastercalc_1" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+          <Option type="Map">
+            <Option value="native:modelerrastercalc_2" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:reclassifybytable_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="native:reclassifybytable" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1165" name="component_pos_x" type="double"/>
+        <Option value="424" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Reclassify by table" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="560" name="component_pos_x" type="double"/>
+      <Option value="410" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="native:reclassifybytable_1" name="id" type="QString"/>
+      <Option name="outputs"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="DATA_TYPE" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="5" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="INPUT_RASTER" type="List">
+          <Option type="Map">
+            <Option value="native:modelerrastercalc_3" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+        <Option name="NODATA_FOR_MISSING" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="false" name="static_value" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="NO_DATA" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="-9999" name="static_value" type="double"/>
+          </Option>
+        </Option>
+        <Option name="RANGE_BOUNDARIES" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="0" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="RASTER_BAND" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="1" name="static_value" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="TABLE" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option name="static_value" type="List">
+              <Option value="-10" type="QString"/>
+              <Option value="0.1" type="QString"/>
+              <Option value="0" type="QString"/>
+              <Option value="0.1" type="QString"/>
+              <Option value="10" type="QString"/>
+              <Option value="1" type="QString"/>
+            </Option>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:setlayerstyle_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="native:setlayerstyle" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1086" name="component_pos_x" type="double"/>
+        <Option value="424" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Set layer style" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="430" name="component_pos_x" type="double"/>
+      <Option value="224" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="native:setlayerstyle_1" name="id" type="QString"/>
+      <Option name="outputs"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option value="native:modelerrastercalc_3" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+        <Option name="STYLE" type="List">
+          <Option type="Map">
+            <Option value="style_file" name="parameter_name" type="QString"/>
+            <Option value="0" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:smoothgeometry_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="native:smoothgeometry" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1244" name="component_pos_x" type="double"/>
+        <Option value="587" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Smooth" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="697" name="component_pos_x" type="double"/>
+      <Option value="669" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="native:smoothgeometry_1" name="id" type="QString"/>
+      <Option name="outputs" type="Map">
+        <Option name="Burned Areas" type="Map">
+          <Option value="native:smoothgeometry_1" name="child_id" type="QString"/>
+          <Option value="" name="color" type="QString"/>
+          <Option name="comment" type="Map">
+            <Option value="" name="color" type="QString"/>
+            <Option value="" name="component_description" type="QString"/>
+            <Option value="60" name="component_height" type="double"/>
+            <Option value="0" name="component_pos_x" type="double"/>
+            <Option value="0" name="component_pos_y" type="double"/>
+            <Option value="100" name="component_width" type="double"/>
+            <Option value="true" name="outputs_collapsed" type="bool"/>
+            <Option value="true" name="parameters_collapsed" type="bool"/>
+          </Option>
+          <Option value="Burned Areas" name="component_description" type="QString"/>
+          <Option value="30" name="component_height" type="double"/>
+          <Option value="521.5400593471811" name="component_pos_x" type="double"/>
+          <Option value="743.5697329376854" name="component_pos_y" type="double"/>
+          <Option value="200" name="component_width" type="double"/>
+          <Option name="default_value" type="invalid"/>
+          <Option value="false" name="mandatory" type="bool"/>
+          <Option value="Burned Areas" name="name" type="QString"/>
+          <Option value="OUTPUT" name="output_name" type="QString"/>
+          <Option value="true" name="outputs_collapsed" type="bool"/>
+          <Option value="true" name="parameters_collapsed" type="bool"/>
+        </Option>
+      </Option>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option value="native:fieldcalculator_1" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+        <Option name="ITERATIONS" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="1" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="MAX_ANGLE" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="180" name="static_value" type="double"/>
+          </Option>
+        </Option>
+        <Option name="OFFSET" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="0.25" name="static_value" type="double"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="sagang:vectorizingrasterclasses_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="sagang:vectorizingrasterclasses" name="alg_id" type="QString"/>
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1252" name="component_pos_x" type="double"/>
+        <Option value="669" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="Vectorizing Raster Classes" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="757" name="component_pos_x" type="double"/>
+      <Option value="473" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="sagang:vectorizingrasterclasses_1" name="id" type="QString"/>
+      <Option name="outputs"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="ALLVERTICES" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="false" name="static_value" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="CLASS_ALL" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="0" name="static_value" type="int"/>
+          </Option>
+        </Option>
+        <Option name="CLASS_ID" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="1" name="static_value" type="double"/>
+          </Option>
+        </Option>
+        <Option name="GRID" type="List">
+          <Option type="Map">
+            <Option value="native:reclassifybytable_1" name="child_id" type="QString"/>
+            <Option value="OUTPUT" name="output_name" type="QString"/>
+            <Option value="1" name="source" type="int"/>
+          </Option>
+        </Option>
+        <Option name="SPLIT" type="List">
+          <Option type="Map">
+            <Option value="2" name="source" type="int"/>
+            <Option value="1" name="static_value" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="designerParameterValues" type="Map">
+    <Option value="T35SNB_20250622T085721_B8A_20m_0df00ff1_bd27_496b_967e_50f29ce85e50" name="aprefire_nir_band_8_for_sentinel_and_band_5_for_landsat_89" type="QString"/>
+    <Option value="T35SNB_20250622T085721_B12_20m_746f7971_e7c9_474b_ad6c_5a597d97d6c2" name="bprefire_swir_band_12_for_sentinel_and_band_7_for_landsat_89" type="QString"/>
+    <Option name="burned_areas" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option value="UTF-8" name="fileEncoding" type="QString"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option value="true" name="active" type="bool"/>
+          <Option value="1" name="type" type="int"/>
+          <Option value="TEMPORARY_OUTPUT" name="val" type="QString"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option value="T35SNB_20250705T085559_B8A_20m_a22bbebf_9e84_498f_918f_9a9f4f577ac0" name="cpostfire_nir_band_8_for_sentinel_and_band_5_for_landsat_89" type="QString"/>
+    <Option name="dnbr" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option value="UTF-8" name="fileEncoding" type="QString"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option value="true" name="active" type="bool"/>
+          <Option value="1" name="type" type="int"/>
+          <Option value="TEMPORARY_OUTPUT" name="val" type="QString"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option value="T35SNB_20250705T085559_B12_20m_59c6704d_725c_4520_a77a_46e967e4336b" name="dpostfire_swir_band_12_for_sentinel_and_band_7_for_landsat_89" type="QString"/>
+    <Option name="postnbr" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option value="UTF-8" name="fileEncoding" type="QString"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option value="true" name="active" type="bool"/>
+          <Option value="1" name="type" type="int"/>
+          <Option value="TEMPORARY_OUTPUT" name="val" type="QString"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="prenbr" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option value="UTF-8" name="fileEncoding" type="QString"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option value="true" name="active" type="bool"/>
+          <Option value="1" name="type" type="int"/>
+          <Option value="TEMPORARY_OUTPUT" name="val" type="QString"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option value="/home/burak/Documents/sentinelizmir/sentinellegend.qml" name="style_file" type="QString"/>
+  </Option>
+  <Option name="groupBoxes"/>
+  <Option name="help" type="Map">
+    <Option value="Burak Beyhan" name="ALG_CREATOR" type="QString"/>
+    <Option value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-family:'Ubuntu Sans'; font-size:11pt;&quot;>This model calculates the Normalized Burn Ratio (NBR) values specifically for the delimitation of wildfire zones. For this purpose you need pre-fire and post-fire satellite images of the region studied (particularly Bands 8 and 12 for Sentinel, and Band 5 and 7 for Landsat 8-9).&lt;/span>&lt;/p>&lt;/body>&lt;/html>" name="ALG_DESC" type="QString"/>
+    <Option value="Burak Beyhan" name="ALG_HELP_CREATOR" type="QString"/>
+    <Option value="Version 2.0" name="ALG_VERSION" type="QString"/>
+    <Option value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu Sans'; font-size:11pt;&quot;>&lt;br />&lt;/p>&lt;/body>&lt;/html>" name="EXAMPLES" type="QString"/>
+    <Option name="SHORT_DESCRIPTION" type="invalid"/>
+    <Option value="Pre-fire Near Infrared (NIR) (Band 8 for Sentinel and Band 5 for Landsat 8-9)" name="aprefire_nir_band_8_for_sentinel_and_band_5_for_landsat_89" type="QString"/>
+    <Option value="Pre-fire Shortwave Infrared (SWIR) (Band 12 for Sentinel and Band 7 for Landsat 8-9)" name="bprefire_swir_band_12_for_sentinel_and_band_7_for_landsat_89" type="QString"/>
+    <Option value="Vector file showing the wildfire zones in the study region. This file may contain false classifications caused by the clouds or agricultural harvest. It can be superimposed with RGB composites for the elimination of false classifications for the final delimitation of the wildfire zones." name="burned_areas" type="QString"/>
+    <Option value="Post-fire Near Infrared (NIR) (Band 8 for Sentinel and Band 5 for Landsat 8-9)" name="cpostfire_nir_band_8_for_sentinel_and_band_5_for_landsat_89" type="QString"/>
+    <Option value="ΔNBR = NBR prefire − NBR postfire" name="dnbr" type="QString"/>
+    <Option value="Post-fire Shortwave Infrared (SWIR) (Band 12 for Sentinel and Band 7 for Landsat 8-9)" name="dpostfire_swir_band_12_for_sentinel_and_band_7_for_landsat_89" type="QString"/>
+    <Option value="Post-fire NBR raster grid" name="postnbr" type="QString"/>
+    <Option value="Pre-fire NBR raster grid" name="prenbr" type="QString"/>
+    <Option value="XML format QGIS style file (qml) for visualization of burned areas according to the classification schemes of United States Geological Survey (USGS) for ∆NBR. The respective file is available in the package created for FPM tools." name="style_file" type="QString"/>
+  </Option>
+  <Option value="Version2" name="internal_version" type="QString"/>
+  <Option name="modelVariables"/>
+  <Option value="FPM" name="model_group" type="QString"/>
+  <Option value="Delimitation of Burned Areas" name="model_name" type="QString"/>
+  <Option value="" name="outputGroup" type="QString"/>
+  <Option name="outputOrder"/>
+  <Option name="parameterDefinitions" type="Map">
+    <Option name="aprefire_nir_band_8_for_sentinel_and_band_5_for_landsat_89" type="Map">
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="a-Pre-fire NIR (Band 8 for Sentinel and Band 5 for Landsat 8-9)" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="Pre-fire Near Infrared (NIR) (Band 8 for Sentinel and Band 5 for Landsat 8-9)" name="help" type="QString"/>
+      <Option name="metadata"/>
+      <Option value="aprefire_nir_band_8_for_sentinel_and_band_5_for_landsat_89" name="name" type="QString"/>
+      <Option value="raster" name="parameter_type" type="QString"/>
+    </Option>
+    <Option name="bprefire_swir_band_12_for_sentinel_and_band_7_for_landsat_89" type="Map">
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="b-Pre-fire SWIR (Band 12 for Sentinel and Band 7 for Landsat 8-9)" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="Pre-fire Shortwave Infrared (SWIR) (Band 12 for Sentinel and Band 7 for Landsat 8-9)" name="help" type="QString"/>
+      <Option name="metadata"/>
+      <Option value="bprefire_swir_band_12_for_sentinel_and_band_7_for_landsat_89" name="name" type="QString"/>
+      <Option value="raster" name="parameter_type" type="QString"/>
+    </Option>
+    <Option name="burned_areas" type="Map">
+      <Option value="true" name="create_by_default" type="bool"/>
+      <Option value="-1" name="data_type" type="int"/>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="Burned Areas" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
+      <Option name="metadata" type="Map">
+        <Option value="native:smoothgeometry_1" name="_modelChildId" type="QString"/>
+        <Option value="Burned Areas" name="_modelChildOutputName" type="QString"/>
+        <Option value="native" name="_modelChildProvider" type="QString"/>
+      </Option>
+      <Option value="burned_areas" name="name" type="QString"/>
+      <Option value="sink" name="parameter_type" type="QString"/>
+      <Option value="true" name="supports_append" type="bool"/>
+      <Option value="true" name="supports_non_file_outputs" type="bool"/>
+    </Option>
+    <Option name="cpostfire_nir_band_8_for_sentinel_and_band_5_for_landsat_89" type="Map">
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="c-Post-fire NIR (Band 8 for Sentinel and Band 5 for Landsat 8-9)" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="Post-fire Near Infrared (NIR) (Band 8 for Sentinel and Band 5 for Landsat 8-9)" name="help" type="QString"/>
+      <Option name="metadata"/>
+      <Option value="cpostfire_nir_band_8_for_sentinel_and_band_5_for_landsat_89" name="name" type="QString"/>
+      <Option value="raster" name="parameter_type" type="QString"/>
+    </Option>
+    <Option name="dnbr" type="Map">
+      <Option value="true" name="create_by_default" type="bool"/>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="dNBR" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
+      <Option name="metadata" type="Map">
+        <Option value="native:modelerrastercalc_3" name="_modelChildId" type="QString"/>
+        <Option value="dNBR" name="_modelChildOutputName" type="QString"/>
+        <Option value="native" name="_modelChildProvider" type="QString"/>
+      </Option>
+      <Option value="dnbr" name="name" type="QString"/>
+      <Option value="rasterDestination" name="parameter_type" type="QString"/>
+      <Option value="true" name="supports_non_file_outputs" type="bool"/>
+    </Option>
+    <Option name="dpostfire_swir_band_12_for_sentinel_and_band_7_for_landsat_89" type="Map">
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="d-Post-fire SWIR (Band 12 for Sentinel and Band 7 for Landsat 8-9)" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="Post-fire Shortwave Infrared (SWIR) (Band 12 for Sentinel and Band 7 for Landsat 8-9)" name="help" type="QString"/>
+      <Option name="metadata"/>
+      <Option value="dpostfire_swir_band_12_for_sentinel_and_band_7_for_landsat_89" name="name" type="QString"/>
+      <Option value="raster" name="parameter_type" type="QString"/>
+    </Option>
+    <Option name="postnbr" type="Map">
+      <Option value="true" name="create_by_default" type="bool"/>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="Post-NBR" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
+      <Option name="metadata" type="Map">
+        <Option value="native:modelerrastercalc_2" name="_modelChildId" type="QString"/>
+        <Option value="Post-NBR" name="_modelChildOutputName" type="QString"/>
+        <Option value="native" name="_modelChildProvider" type="QString"/>
+      </Option>
+      <Option value="postnbr" name="name" type="QString"/>
+      <Option value="rasterDestination" name="parameter_type" type="QString"/>
+      <Option value="true" name="supports_non_file_outputs" type="bool"/>
+    </Option>
+    <Option name="prenbr" type="Map">
+      <Option value="true" name="create_by_default" type="bool"/>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="Pre-NBR" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="" name="help" type="QString"/>
+      <Option name="metadata" type="Map">
+        <Option value="native:modelerrastercalc_1" name="_modelChildId" type="QString"/>
+        <Option value="Pre-NBR" name="_modelChildOutputName" type="QString"/>
+        <Option value="native" name="_modelChildProvider" type="QString"/>
+      </Option>
+      <Option value="prenbr" name="name" type="QString"/>
+      <Option value="rasterDestination" name="parameter_type" type="QString"/>
+      <Option value="true" name="supports_non_file_outputs" type="bool"/>
+    </Option>
+    <Option name="style_file" type="Map">
+      <Option value="0" name="behavior" type="int"/>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option value="Style File" name="description" type="QString"/>
+      <Option value="" name="extension" type="QString"/>
+      <Option value="All Files (*.*)" name="filefilter" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option value="XML format QGIS style file (qml) for visualization of burned areas according to the classification schemes of United States Geological Survey (USGS) for ∆NBR. The respective file is available in the package created for FPM tools." name="help" type="QString"/>
+      <Option name="metadata"/>
+      <Option value="style_file" name="name" type="QString"/>
+      <Option value="file" name="parameter_type" type="QString"/>
+    </Option>
+  </Option>
+  <Option name="parameterOrder"/>
+  <Option name="parameters" type="Map">
+    <Option name="aprefire_nir_band_8_for_sentinel_and_band_5_for_landsat_89" type="Map">
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1200" name="component_pos_x" type="double"/>
+        <Option value="15" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="aprefire_nir_band_8_for_sentinel_and_band_5_for_landsat_89" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="109.50562433410525" name="component_pos_x" type="double"/>
+      <Option value="33.704162227368386" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option value="aprefire_nir_band_8_for_sentinel_and_band_5_for_landsat_89" name="name" type="QString"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+    </Option>
+    <Option name="bprefire_swir_band_12_for_sentinel_and_band_7_for_landsat_89" type="Map">
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1200" name="component_pos_x" type="double"/>
+        <Option value="15" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="bprefire_swir_band_12_for_sentinel_and_band_7_for_landsat_89" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="344" name="component_pos_x" type="double"/>
+      <Option value="81" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option value="bprefire_swir_band_12_for_sentinel_and_band_7_for_landsat_89" name="name" type="QString"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+    </Option>
+    <Option name="cpostfire_nir_band_8_for_sentinel_and_band_5_for_landsat_89" type="Map">
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="980" name="component_pos_x" type="double"/>
+        <Option value="15" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="cpostfire_nir_band_8_for_sentinel_and_band_5_for_landsat_89" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="580" name="component_pos_x" type="double"/>
+      <Option value="51" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option value="cpostfire_nir_band_8_for_sentinel_and_band_5_for_landsat_89" name="name" type="QString"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+    </Option>
+    <Option name="dpostfire_swir_band_12_for_sentinel_and_band_7_for_landsat_89" type="Map">
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="760" name="component_pos_x" type="double"/>
+        <Option value="15" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="dpostfire_swir_band_12_for_sentinel_and_band_7_for_landsat_89" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="747" name="component_pos_x" type="double"/>
+      <Option value="104" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option value="dpostfire_swir_band_12_for_sentinel_and_band_7_for_landsat_89" name="name" type="QString"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+    </Option>
+    <Option name="style_file" type="Map">
+      <Option value="" name="color" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option value="" name="color" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1218" name="component_pos_x" type="double"/>
+        <Option value="15" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
+        <Option value="true" name="outputs_collapsed" type="bool"/>
+        <Option value="true" name="parameters_collapsed" type="bool"/>
+      </Option>
+      <Option value="style_file" name="component_description" type="QString"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="428" name="component_pos_x" type="double"/>
+      <Option value="146" name="component_pos_y" type="double"/>
+      <Option value="200" name="component_width" type="double"/>
+      <Option value="style_file" name="name" type="QString"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+    </Option>
+  </Option>
+</Option>
