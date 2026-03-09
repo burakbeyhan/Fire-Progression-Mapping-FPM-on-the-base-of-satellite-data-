@@ -9,7 +9,7 @@ Below there is a sample image from one of the outcomes of third model created fo
 
 ![FPM_sample](https://github.com/user-attachments/assets/bc0f6731-eb69-479d-8198-0e6cfce91f9d)
 
-How to cite this material;
+How to cite the QGIS models and scripts package shared in this repository;
 
 Beyhan, B. (2025). Wildfires as incidences of ecological crime: A comprehensive examination of the wildfires in İzmir city-region between 25 June and 5 July 2025. Geoadria, 30 (2). https://doi.org/10.15291/geoadria.4869
 
