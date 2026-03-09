@@ -20,9 +20,11 @@ In order to install QGIS Models, file named “*.model3” should be copied to t
 
 C:\Users\Aidata\AppData\Roaming\QGIS\QGIS3\profiles\default\processing\models
 
-The main model (Fire Progression Mapping.model3) draws on two additional python scripts (FPM vector legend.py and FPM raster legend.py) that should be copied to the script folder (“processing/scripts”) of QGIS installation. In a typical Windows-based operating system, the default address for the respective folder is as following;
+Additionally, the main model (Fire Progression Mapping.model3) draws on two additional python scripts (FPM vector legend.py and FPM raster legend.py) that should be copied to the script folder (“processing/scripts”) of QGIS installation. In a typical Windows-based operating system, the default address for the respective folder is as following;
 
 C:\Users\Aidata\AppData\Roaming\QGIS\QGIS3\profiles\default\processing\scripts
+
+Extra information about the use of each model can be obtained by running the models concerned in QGIS.
 
 ## Software Requirements
 QGIS - https://qgis.org/ 
