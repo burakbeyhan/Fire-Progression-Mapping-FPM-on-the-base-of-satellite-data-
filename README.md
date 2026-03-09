@@ -29,4 +29,4 @@ Extra information about the use of each model can be obtained by running the mod
 ## Software Requirements
 QGIS - https://qgis.org/ 
 
-SAGA tools should be available under processing toolbox in QGIS. If these tools are not listed under processing toolbox, you can install them via the required plugin from "Processing Saga NextGen Provider".
+SAGA tools should be available under processing toolbox in QGIS. If these tools are not listed under processing toolbox, you can install them via the required plugin from "Processing Saga NextGen Provider" directly in QGIS.
